@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>CMS</title>
+    <link rel="shortcut icon" href="~/favicon.ico">
+    <link rel="stylesheet" href="~/Content/matrix/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Content/matrix/css/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="~/Content/matrix/css/fullcalendar.css" />
+    <link rel="stylesheet" href="~/Content/matrix/css/matrix-style.css" />
+    <link rel="stylesheet" href="~/Content/matrix/css/matrix-media.css" />
+    <link href="~/Content/matrix/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/Content/matrix/css/jquery.gritter.css" />
+
+    @RenderSection("Styles", false)
+
+    <script type="text/javascript">
+        //This is used to get the application's root path from javascript. It's useful if you're running application in a virtual directory under IIS.
+        var abp = abp || {}; abp.appPath = '@ApplicationPath';
+    </script>
+
+    <script src="~/Scripts/json2.min.js"></script>
+    <script src="~/Scripts/jquery-2.1.4.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.11.4.min.js"></script>
+    <script src="~/Scripts/jquery.blockUI.js"></script>
+    <script src="~/Scripts/toastr.min.js"></script>
+    <script src="~/Scripts/others/spinjs/spin.js"></script>
+    <script src="~/Scripts/others/spinjs/jquery.spin.js"></script>
+
+    <script src="~/Content/matrix/js/jquery.min.js"></script>
+    <script src="~/Content/matrix/js/jquery.ui.custom.js"></script>
+    <script src="~/Content/matrix/js/bootstrap.min.js"></script>
+    <script src="~/Content/matrix/js/matrix.js"></script>
+
+    <script src="~/Abp/Framework/scripts/abp.js"></script>
+    <script src="~/Abp/Framework/scripts/libs/abp.jquery.js"></script>
+    <script src="~/Abp/Framework/scripts/libs/abp.toastr.js"></script>
+    <script src="~/Abp/Framework/scripts/libs/abp.blockUI.js"></script>
+    <script src="~/Abp/Framework/scripts/libs/abp.spin.js"></script>
+  
+
+    @RenderSection("Scripts", false)
+</head>
+<body>
+@Html.Partial("_HeadMenu")
+@Html.Partial("_LeftMenu")
+<div id="content">
+    @RenderBody()
+</div>
+@Html.Partial("_Footer")
+</body>
+</html>

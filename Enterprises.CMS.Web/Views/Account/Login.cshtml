@@ -1,0 +1,45 @@
+﻿@model Enterprises.CMS.Web.Models.Account.LoginFormViewModel
+@{
+    Layout = null;
+}
+
+<html>
+<head>
+    <title>Matrix Admin</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/Content/matrix/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Content/matrix/css/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="~/Content/matrix/css/matrix-login.css" />
+    <link href="~/Content/matrix/font-awesome/css/font-awesome.css" rel="stylesheet"/>
+    <script src="/Content/matrix/js/jquery.min.js"></script>
+    <script src="/Abp/Framework/scripts/abp.js"></script>
+    <script src="/Abp/Framework/scripts/libs/abp.jquery.js"></script>
+    <script src="~/Views/Account/Login.js"></script>
+</head>
+<body>
+    <div id="loginbox">
+        <form id="loginform" class="form-vertical" action="@(Url.Action("Login", "Account"))?returnUrl=@(Model.ReturnUrl)">
+            <div class="control-group normal_text"> <h3><img src="~/Content/matrix/img/logo.png" alt="Logo" /></h3></div>
+            <div class="control-group">
+                <div class="controls">
+                    <div class="main_input_box">
+                        <span class="add-on bg_lg"><i class="icon-user"></i></span><input type="text" id="EmailAddressInput" placeholder="请输入用户名" />
+                    </div>
+                </div>
+            </div>
+            <div class="control-group">
+                <div class="controls">
+                    <div class="main_input_box">
+                        <span class="add-on bg_ly"><i class="icon-lock"></i></span><input type="password" id="PasswordInput" placeholder="请输入密码" />
+                    </div>
+                </div>
+            </div>
+            <div class="form-actions" style="margin-right: 50px;">
+                <span class="pull-right"><button type="submit" href="index.html" id="LoginButton" class="btn btn-success" > 登 入</button></span>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
