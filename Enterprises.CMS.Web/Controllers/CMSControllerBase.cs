@@ -17,9 +17,10 @@ namespace Enterprises.CMS.Web.Controllers
     {
         public readonly ISessionAppService SessionService;
 
-        protected  CMSControllerBase()
+        protected CMSControllerBase()
         {
             LocalizationSourceName = CMSConsts.LocalizationSourceName;
+            SessionService = new SessionAppService();
         }
 
 
@@ -27,6 +28,18 @@ namespace Enterprises.CMS.Web.Controllers
         {
             ViewBag.UserName = AbpSession.GetUserName();
             base.OnAuthentication(filterContext);
+        }
+
+        public string UserName => AbpSession.GetUserName();
+        public long UserId => AbpSession.GetUserId();
+
+        public UserLoginInfoDto CurrentUser
+        {
+            get
+            {
+                var user = SessionService.GetCurrentLoginInformations();
+                return user.Result.User;
+            }
         }
     }
 }

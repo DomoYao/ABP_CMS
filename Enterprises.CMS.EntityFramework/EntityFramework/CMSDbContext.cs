@@ -7,6 +7,7 @@ using Enterprises.CMS.Users;
 
 namespace Enterprises.CMS.EntityFramework
 {
+    [DbConfigurationType(typeof(MySql.Data.Entity.MySqlEFConfiguration))]
     public class CMSDbContext : AbpZeroDbContext<Tenant, Role, User>
     {
         //TODO: Define an IDbSet for each Entity...
@@ -20,7 +21,7 @@ namespace Enterprises.CMS.EntityFramework
          *   pass connection string name to base classes. ABP works either way.
          */
         public CMSDbContext()
-            : base("Default")
+            : base("CmsConnection")
         {
 
         }
@@ -30,7 +31,7 @@ namespace Enterprises.CMS.EntityFramework
          *   Notice that, actually you will not directly create an instance of CMSDbContext since ABP automatically handles it.
          */
         public CMSDbContext(string nameOrConnectionString)
-            : base(nameOrConnectionString)
+            : base("CmsConnection")
         {
 
         }

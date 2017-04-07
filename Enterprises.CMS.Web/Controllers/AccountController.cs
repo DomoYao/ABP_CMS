@@ -53,7 +53,7 @@ namespace Enterprises.CMS.Web.Controllers
         {
             if (!ModelState.IsValid)
             {
-                throw new UserFriendlyException("Your form is invalid!");
+                throw new UserFriendlyException("提交信息有误!");
             }
 
             var loginResult = await _userManager.LoginAsync(
@@ -68,17 +68,17 @@ namespace Enterprises.CMS.Web.Controllers
                     break;
                 case AbpLoginResultType.InvalidUserNameOrEmailAddress:
                 case AbpLoginResultType.InvalidPassword:
-                    throw new UserFriendlyException("Invalid user name or password!");
+                    throw new UserFriendlyException("无效的用户名或密码!");
                 case AbpLoginResultType.InvalidTenancyName:
-                    throw new UserFriendlyException("No tenant with name: " + loginModel.TenancyName);
+                    throw new UserFriendlyException("未找到租户名字: " + loginModel.TenancyName);
                 case AbpLoginResultType.TenantIsNotActive:
-                    throw new UserFriendlyException("Tenant is not active: " + loginModel.TenancyName);
+                    throw new UserFriendlyException("租户无效: " + loginModel.TenancyName);
                 case AbpLoginResultType.UserIsNotActive:
-                    throw new UserFriendlyException("User is not active: " + loginModel.UsernameOrEmailAddress);
+                    throw new UserFriendlyException("用户无效: " + loginModel.UsernameOrEmailAddress);
                 case AbpLoginResultType.UserEmailIsNotConfirmed:
-                    throw new UserFriendlyException("Your email address is not confirmed!");
+                    throw new UserFriendlyException("您的邮箱还为验证!");
                 default: //Can not fall to default for now. But other result types can be added in the future and we may forget to handle it
-                    throw new UserFriendlyException("Unknown problem with login: " + loginResult.Result);
+                    throw new UserFriendlyException("未知错误，请联系管理员: " + loginResult.Result);
             }
 
             AuthenticationManager.SignOut(DefaultAuthenticationTypes.ExternalCookie);
@@ -97,5 +97,7 @@ namespace Enterprises.CMS.Web.Controllers
             AuthenticationManager.SignOut();
             return RedirectToAction("Login");
         }
+
+       
     }
 }

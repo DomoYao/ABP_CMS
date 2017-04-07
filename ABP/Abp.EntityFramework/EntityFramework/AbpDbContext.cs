@@ -1,4 +1,5 @@
-﻿using System.Data.Common;
+﻿using System;
+using System.Data.Common;
 using System.Data.Entity;
 using System.Data.Entity.Core.Objects;
 using System.Data.Entity.Infrastructure;
@@ -104,7 +105,15 @@ namespace Abp.EntityFramework
 
         public virtual void Initialize()
         {
-            Database.Initialize(false);
+            try
+            {
+                Database.Initialize(false);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            
             this.SetFilterScopedParameterValue(AbpDataFilters.MustHaveTenant, AbpDataFilters.Parameters.TenantId, AbpSession.TenantId ?? 0);
             this.SetFilterScopedParameterValue(AbpDataFilters.MayHaveTenant, AbpDataFilters.Parameters.TenantId, AbpSession.TenantId);
         }

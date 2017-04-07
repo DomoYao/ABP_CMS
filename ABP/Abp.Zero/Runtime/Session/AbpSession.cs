@@ -33,6 +33,7 @@ namespace Abp.Runtime.Session
         {
             get
             {
+               
                 var userName = Thread.CurrentPrincipal.Identity.GetUserName();
                 if (string.IsNullOrEmpty(userName))
                 {

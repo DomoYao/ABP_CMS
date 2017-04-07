@@ -7,13 +7,13 @@ namespace Enterprises.CMS.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class AbpZero_Initial : IMigrationMetadata
+    public sealed partial class InitialCreate : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(AbpZero_Initial));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(InitialCreate));
         
         string IMigrationMetadata.Id
         {
-            get { return "201506210746108_AbpZero_Initial"; }
+            get { return "201601210307239_InitialCreate"; }
         }
         
         string IMigrationMetadata.Source

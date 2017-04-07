@@ -5,7 +5,7 @@ namespace Enterprises.CMS.Migrations
     using System.Data.Entity.Infrastructure.Annotations;
     using System.Data.Entity.Migrations;
     
-    public partial class AbpZero_Initial : DbMigration
+    public partial class InitialCreate : DbMigration
     {
         public override void Up()
         {

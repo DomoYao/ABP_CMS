@@ -5,6 +5,6 @@ namespace Enterprises.CMS.Users
 {
     public class User : AbpUser<Tenant, User>
     {
-
+       
     }
 }

@@ -6,10 +6,11 @@ using System.Web.Routing;
 using Abp.Localization;
 using Abp.Localization.Sources.Xml;
 using Abp.Modules;
+using Abp.Web.Mvc;
 
 namespace Enterprises.CMS.Web
 {
-    [DependsOn(typeof(CMSDataModule), typeof(CMSApplicationModule), typeof(CMSWebApiModule))]
+    [DependsOn(typeof(CMSDataModule), typeof(CMSApplicationModule), typeof(CMSWebApiModule), typeof(AbpWebMvcModule))]
     public class CMSWebModule : AbpModule
     {
         public override void PreInitialize()
