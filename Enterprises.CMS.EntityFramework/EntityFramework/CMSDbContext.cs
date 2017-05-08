@@ -7,7 +7,8 @@ using Enterprises.CMS.Users;
 
 namespace Enterprises.CMS.EntityFramework
 {
-    [DbConfigurationType(typeof(MySql.Data.Entity.MySqlEFConfiguration))]
+    
+    [DbConfigurationType(typeof(MySql.Data.Entity.MySqlEFConfiguration))] // Mysql 数据库
     public class CMSDbContext : AbpZeroDbContext<Tenant, Role, User>
     {
         //TODO: Define an IDbSet for each Entity...

@@ -25,7 +25,7 @@ namespace Enterprises.CMS
             LocalizationSourceName = CMSConsts.LocalizationSourceName;
         }
 
-        protected virtual Task<Users.User> GetCurrentUserAsync()
+        protected virtual Task<User> GetCurrentUserAsync()
         {
             var user = UserManager.FindByIdAsync(AbpSession.GetUserId());
             if (user == null)

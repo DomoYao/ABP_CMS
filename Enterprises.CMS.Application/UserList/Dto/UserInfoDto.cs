@@ -1,10 +1,11 @@
 ﻿using System;
 using Abp.Application.Services.Dto;
 using Abp.AutoMapper;
+using Enterprises.CMS.Users;
 
 namespace Enterprises.CMS.UserList.Dto
 {
-    [AutoMapFrom(typeof (Users.User))]
+    [AutoMapFrom(typeof (User))]
     public class UserInfoDto : EntityDto<long>
     {
 
