@@ -5,7 +5,7 @@ using Castle.DynamicProxy;
 namespace Abp.Domain.Uow
 {
     /// <summary>
-    /// This interceptor is used to manage database connection and transactions.
+    /// 这个拦截器用于管理数据库连接和事务.
     /// </summary>
     internal class UnitOfWorkInterceptor : IInterceptor
     {

@@ -15,7 +15,7 @@
         {
             if (!session.UserId.HasValue)
             {
-                throw new AbpException("Session.UserId is null! Probably, user is not logged in.");
+                throw new AbpException("Session.UserId为空！也许，没有登录的用户。");
             }
 
             return session.UserId.Value;
@@ -42,7 +42,7 @@
         {
             if (!session.TenantId.HasValue)
             {
-                throw new AbpException("Session.TenantId is null! Possible problems: User is not logged in, current user in not tenant user or this is not a multi-tenant application.");
+                throw new AbpException("Session.Tenant ID为空！可能的问题：用户没有登录或这不是一个多租户应用程序。");
             }
 
             return session.TenantId.Value;

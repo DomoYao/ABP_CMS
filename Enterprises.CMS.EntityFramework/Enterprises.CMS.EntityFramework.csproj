@@ -60,6 +60,14 @@
       <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.9.9\lib\net45\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.Entity.6.9.9\lib\net45\MySql.Data.Entity.EF6.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -89,9 +97,9 @@
   <ItemGroup>
     <Compile Include="EntityFramework\CMSDbContext.cs" />
     <Compile Include="EntityFramework\Repositories\CMSRepositoryBase.cs" />
-    <Compile Include="Migrations\201506210746108_AbpZero_Initial.cs" />
-    <Compile Include="Migrations\201506210746108_AbpZero_Initial.Designer.cs">
-      <DependentUpon>201506210746108_AbpZero_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\201601210307239_InitialCreate.cs" />
+    <Compile Include="Migrations\201601210307239_InitialCreate.Designer.cs">
+      <DependentUpon>201601210307239_InitialCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="CMSDataModule.cs" />
@@ -126,8 +134,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201506210746108_AbpZero_Initial.resx">
-      <DependentUpon>201506210746108_AbpZero_Initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201601210307239_InitialCreate.resx">
+      <DependentUpon>201601210307239_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

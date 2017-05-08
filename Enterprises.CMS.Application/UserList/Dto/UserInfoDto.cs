@@ -1,12 +1,14 @@
-﻿using Abp.Application.Services.Dto;
+﻿using System;
+using Abp.Application.Services.Dto;
 using Abp.AutoMapper;
 using Enterprises.CMS.Users;
 
-namespace Enterprises.CMS.Sessions.Dto
+namespace Enterprises.CMS.UserList.Dto
 {
-    [AutoMapFrom(typeof(Users.User))]
-    public class UserLoginInfoDto : EntityDto<long>
+    [AutoMapFrom(typeof (User))]
+    public class UserInfoDto : EntityDto<long>
     {
+
         /// <summary>
         /// 名
         /// </summary>
@@ -26,5 +28,14 @@ namespace Enterprises.CMS.Sessions.Dto
         /// 邮箱
         /// </summary>
         public string EmailAddress { get; set; }
+        /// <summary>
+        /// 最后登入时间
+        /// </summary>
+        public DateTime? LastLoginTime { get; set; }
+        /// <summary>
+        /// 是否有效
+        /// </summary>
+        public bool IsActive { get; set; }
+
     }
 }

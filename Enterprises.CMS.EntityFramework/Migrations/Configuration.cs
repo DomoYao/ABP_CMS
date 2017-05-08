@@ -8,7 +8,7 @@ namespace Enterprises.CMS.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
             ContextKey = "CMS";
         }
 

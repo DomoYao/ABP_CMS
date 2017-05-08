@@ -265,6 +265,8 @@ namespace Abp.Authorization.Users
             get { return _userRepository.GetAll(); }
         }
 
+       
+
         public virtual async Task AddPermissionAsync(TUser user, PermissionGrantInfo permissionGrant)
         {
             if (await HasPermissionAsync(user, permissionGrant))

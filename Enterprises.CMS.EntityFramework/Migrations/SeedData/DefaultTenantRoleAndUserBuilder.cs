@@ -44,7 +44,7 @@ namespace Enterprises.CMS.Migrations.SeedData
                         UserName = "admin",
                         Name = "System",
                         Surname = "Administrator",
-                        EmailAddress = "admin@aspnetboilerplate.com",
+                        EmailAddress = "yao-lifeng@163.com",
                         IsEmailConfirmed = true,
                         Password = "AM4OLBpptxBYmM79lGOX9egzZk3vIQU3d/gFCJzaBjAPXzYIK3tQ2N7X4fcrHtElTw==" //123qwe
                     });

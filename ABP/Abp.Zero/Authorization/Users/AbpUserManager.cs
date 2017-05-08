@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
@@ -371,6 +371,7 @@ namespace Abp.Authorization.Users
                 return new AbpLoginResult(AbpLoginResultType.UserIsNotActive);
             }
 
+            // 邮箱是否确认验证
             if (await IsEmailConfirmationRequiredForLoginAsync(user.TenantId) && !user.IsEmailConfirmed)
             {
                 return new AbpLoginResult(AbpLoginResultType.UserEmailIsNotConfirmed);
@@ -385,6 +386,13 @@ namespace Abp.Authorization.Users
             return new AbpLoginResult(user, await CreateIdentityAsync(user, DefaultAuthenticationTypes.ApplicationCookie));
         }
 
+        /// <summary>
+        /// 外部系统授权验证
+        /// </summary>
+        /// <param name="userNameOrEmailAddress"></param>
+        /// <param name="plainPassword"></param>
+        /// <param name="tenant"></param>
+        /// <returns></returns>
         private async Task<bool> TryLoginFromExternalAuthenticationSources(string userNameOrEmailAddress, string plainPassword, TTenant tenant)
         {
             if (!_userManagementConfig.ExternalAuthenticationSources.Any())
