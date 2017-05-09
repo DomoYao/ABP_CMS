@@ -1235,6 +1235,13 @@
     <None Include="Views\Shared\_Footer.cshtml" />
     <None Include="Views\Shared\_LeftMenu.cshtml" />
     <None Include="Views\Users\Index.cshtml" />
+    <Content Include="Web_MySql.config" />
+    <Content Include="Web_MySql.Debug.config">
+      <DependentUpon>Web_MySql.config</DependentUpon>
+    </Content>
+    <Content Include="Web_MySql.Release.config">
+      <DependentUpon>Web_MySql.config</DependentUpon>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
