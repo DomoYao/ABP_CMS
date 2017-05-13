@@ -1,4 +1,7 @@
 ﻿@model Abp.Application.Services.Dto.ListResultDto<Enterprises.CMS.UserList.Dto.UserListDto>
+@section Scripts{
+   <script src="~/Views/Users/Users.js"></script>
+}
 
 <div id="content-header">
     <div id="breadcrumb"> <a href="#" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> 首页</a> <a href="#" class="current">用户管理</a> </div>
@@ -6,6 +9,7 @@
 </div>
 <div class="container-fluid">
     <hr>
+    <a href="#createModal" data-toggle="modal" class="btn btn-success">新增</a>
     <div class="row-fluid">
         <div class="span12">
             <div class="widget-box">
@@ -17,6 +21,7 @@
                                 <th>登入帐号</th>
                                 <th>邮箱</th>
                                 <th>最近登入时间</th>
+                                <th>操作</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -28,7 +33,9 @@
                                    @item.UserName
                                 </td>
                                 <td>@item.EmailAddress</td>
-                                <td class="center">@string.Format("{0}",item.LastLoginTime==null?"":item.LastLoginTime.GetValueOrDefault().ToString(""))</td>
+                                <td>@string.Format("{0}",item.LastLoginTime==null?"":item.LastLoginTime.GetValueOrDefault().ToString(""))</td>
+                                <td style="text-align:center"><a href="#" class="btn btn-primary btn-mini">修改</a>
+                                    <a href="javascript:void(0);" url="~/users/Delete/@item.Id" class="btn btn-danger btn-mini deleteflag">删除</a></td>
                             </tr>
                         }
                         </tbody>
@@ -38,3 +45,4 @@
         </div>
     </div>
 </div>
+@Html.Partial("_Create")

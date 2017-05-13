@@ -6,6 +6,7 @@ using Enterprises.CMS.Users;
 namespace Enterprises.CMS.UserList.Dto
 {
     [AutoMapFrom(typeof (User))]
+    [AutoMapTo(typeof(User))]
     public class UserInfoDto : EntityDto<long>
     {
 

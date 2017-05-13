@@ -7134,3 +7134,1122 @@ DEBUG 2017-04-06 19:31:17,375 [129  ] Abp.Localization.LocalizationManager     -
 DEBUG 2017-04-06 19:31:17,375 [129  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
 DEBUG 2017-04-06 19:31:17,376 [129  ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
 DEBUG 2017-04-06 19:31:17,376 [129  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-09 22:21:02,434 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-09 22:21:04,225 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2017-05-09 22:21:04,229 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-09 22:21:04,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-09 22:21:04,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-09 22:21:04,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-09 22:21:04,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-09 22:21:04,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-09 22:21:04,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-09 22:21:04,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-09 22:21:04,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSApplicationModule, Enterprises.CMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-09 22:21:04,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSCoreModule, Enterprises.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-09 22:21:04,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSDataModule, Enterprises.CMS.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-09 22:21:04,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.Web.CMSWebModule, Enterprises.CMS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-09 22:21:04,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSWebApiModule, Enterprises.CMS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-09 22:21:04,235 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2017-05-09 22:21:04,920 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2017-05-09 22:21:04,920 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.CreateUserInput
+DEBUG 2017-05-09 22:21:05,154 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserInfoDto
+DEBUG 2017-05-09 22:21:05,161 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserListDto
+DEBUG 2017-05-09 22:21:05,168 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-09 22:21:05,176 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-09 22:21:05,958 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.UserList.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-09 22:21:05,960 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-09 22:21:06,807 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-09 22:21:06,812 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-09 22:21:06,813 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-09 22:21:06,970 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
+DEBUG 2017-05-09 22:21:06,970 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+ERROR 2017-05-09 22:21:33,632 [5    ] .Mvc.Controllers.AbpHandleErrorAttribute - Abp.UI.UserFriendlyException: 无效的用户名或密码!
+   在 Enterprises.CMS.Web.Controllers.AccountController.<Login>d__6.MoveNext() 位置 E:\源代码\ABP_CMS\Enterprises.CMS.Web\Controllers\AccountController.cs:行号 71
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+Abp.UI.UserFriendlyException: 无效的用户名或密码!
+   在 Enterprises.CMS.Web.Controllers.AccountController.<Login>d__6.MoveNext() 位置 E:\源代码\ABP_CMS\Enterprises.CMS.Web\Controllers\AccountController.cs:行号 71
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2017-05-09 22:22:23,367 [13   ] .Mvc.Controllers.AbpHandleErrorAttribute - Abp.UI.UserFriendlyException: 无效的用户名或密码!
+   在 Enterprises.CMS.Web.Controllers.AccountController.<Login>d__6.MoveNext() 位置 E:\源代码\ABP_CMS\Enterprises.CMS.Web\Controllers\AccountController.cs:行号 71
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+Abp.UI.UserFriendlyException: 无效的用户名或密码!
+   在 Enterprises.CMS.Web.Controllers.AccountController.<Login>d__6.MoveNext() 位置 E:\源代码\ABP_CMS\Enterprises.CMS.Web\Controllers\AccountController.cs:行号 71
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-05-10 21:12:50,557 [192  ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-10 21:12:56,872 [192  ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2017-05-10 21:12:56,876 [192  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 21:12:56,878 [192  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 21:12:56,878 [192  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 21:12:56,878 [192  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 21:12:56,879 [192  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 21:12:56,879 [192  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 21:12:56,879 [192  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 21:12:56,879 [192  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 21:12:56,880 [192  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSApplicationModule, Enterprises.CMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 21:12:56,880 [192  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSCoreModule, Enterprises.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 21:12:56,880 [192  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSDataModule, Enterprises.CMS.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 21:12:56,880 [192  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.Web.CMSWebModule, Enterprises.CMS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 21:12:56,881 [192  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSWebApiModule, Enterprises.CMS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 21:12:56,885 [192  ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2017-05-10 21:12:57,547 [192  ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2017-05-10 21:12:57,547 [192  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.CreateUserInput
+DEBUG 2017-05-10 21:12:57,613 [192  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserInfoDto
+DEBUG 2017-05-10 21:12:57,617 [192  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserListDto
+DEBUG 2017-05-10 21:12:57,622 [192  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-10 21:12:57,628 [192  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-10 21:12:58,398 [192  ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.UserList.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-10 21:12:58,400 [192  ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-10 21:12:58,428 [192  ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-10 21:12:58,432 [192  ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-10 21:12:58,433 [192  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-10 21:12:58,452 [192  ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
+DEBUG 2017-05-10 21:12:58,453 [192  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-10 22:17:24,978 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-10 22:17:26,129 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2017-05-10 22:17:26,133 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:17:26,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:17:26,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:17:26,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:17:26,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:17:26,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:17:26,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:17:26,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:17:26,136 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSApplicationModule, Enterprises.CMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:17:26,136 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSCoreModule, Enterprises.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:17:26,136 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSDataModule, Enterprises.CMS.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:17:26,136 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.Web.CMSWebModule, Enterprises.CMS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:17:26,136 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSWebApiModule, Enterprises.CMS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:17:26,139 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2017-05-10 22:17:26,856 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2017-05-10 22:17:26,856 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.CreateUserInput
+DEBUG 2017-05-10 22:17:27,032 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserInfoDto
+DEBUG 2017-05-10 22:17:27,036 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserListDto
+DEBUG 2017-05-10 22:17:27,041 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-10 22:17:27,048 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-10 22:17:27,876 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.UserList.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-10 22:17:27,878 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-10 22:17:28,350 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-10 22:17:28,356 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-10 22:17:28,357 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-10 22:17:28,358 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
+DEBUG 2017-05-10 22:17:28,358 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-10 22:28:22,969 [74   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-10 22:28:27,142 [74   ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2017-05-10 22:28:27,146 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:28:27,148 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:28:27,148 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:28:27,148 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:28:27,148 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:28:27,148 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:28:27,149 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:28:27,149 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:28:27,149 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSApplicationModule, Enterprises.CMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:28:27,149 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSCoreModule, Enterprises.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:28:27,149 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSDataModule, Enterprises.CMS.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:28:27,149 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.Web.CMSWebModule, Enterprises.CMS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:28:27,149 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSWebApiModule, Enterprises.CMS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:28:27,153 [74   ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2017-05-10 22:28:27,777 [74   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2017-05-10 22:28:27,777 [74   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.CreateUserInput
+DEBUG 2017-05-10 22:28:27,847 [74   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserInfoDto
+DEBUG 2017-05-10 22:28:27,851 [74   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserListDto
+DEBUG 2017-05-10 22:28:27,856 [74   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-10 22:28:27,862 [74   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-10 22:28:28,555 [74   ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.UserList.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-10 22:28:28,556 [74   ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-10 22:28:28,579 [74   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-10 22:28:28,584 [74   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-10 22:28:28,584 [74   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-10 22:28:28,585 [74   ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
+DEBUG 2017-05-10 22:28:28,585 [74   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+ERROR 2017-05-10 22:28:32,149 [69   ] .Mvc.Controllers.AbpHandleErrorAttribute - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Data.Entity.Core.Objects.ObjectStateManager.AddStateManagerTypeMetadata(EntitySet entitySet, ObjectTypeMapping mapping)
+   在 System.Data.Entity.Core.Objects.ObjectStateManager.GetOrAddStateManagerTypeMetadata(Type entityType, EntitySet entitySet)
+   在 System.Data.Entity.Core.Objects.ObjectStateManager.AddEntry(IEntityWrapper wrappedObject, EntityKey passedKey, EntitySet entitySet, String argumentName, Boolean isAdded)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Shaper.HandleEntityAppendOnly[TEntity](Func`2 constructEntityDelegate, EntityKey entityKey, EntitySet entitySet)
+   在 lambda_method(Closure , Shaper )
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.<MoveNextAsync>d__4.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Data.Entity.Internal.LazyAsyncEnumerator`1.<FirstMoveNextAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions.<ForEachAsync>d__5`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.<GetAllListAsync>d__7.MoveNext() 位置 E:\源代码\ABP_CMS\ABP\Abp.EntityFramework\EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 50
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Enterprises.CMS.UserList.UserAppService.<GetUsers>d__4.MoveNext() 位置 E:\源代码\ABP_CMS\Enterprises.CMS.Application\UserList\UserAppService.cs:行号 35
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Threading.InternalAsyncHelper.<ReturnGenericTaskAfterAction>d__2`1.MoveNext() 位置 E:\源代码\ABP_CMS\ABP\Abp\Threading\InternalAsyncHelper.cs:行号 35
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Enterprises.CMS.Web.Controllers.UsersController.<Index>d__2.MoveNext() 位置 E:\源代码\ABP_CMS\Enterprises.CMS.Web\Controllers\UsersController.cs:行号 27
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Data.Entity.Core.Objects.ObjectStateManager.AddStateManagerTypeMetadata(EntitySet entitySet, ObjectTypeMapping mapping)
+   在 System.Data.Entity.Core.Objects.ObjectStateManager.GetOrAddStateManagerTypeMetadata(Type entityType, EntitySet entitySet)
+   在 System.Data.Entity.Core.Objects.ObjectStateManager.AddEntry(IEntityWrapper wrappedObject, EntityKey passedKey, EntitySet entitySet, String argumentName, Boolean isAdded)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Shaper.HandleEntityAppendOnly[TEntity](Func`2 constructEntityDelegate, EntityKey entityKey, EntitySet entitySet)
+   在 lambda_method(Closure , Shaper )
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.<MoveNextAsync>d__4.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Data.Entity.Internal.LazyAsyncEnumerator`1.<FirstMoveNextAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions.<ForEachAsync>d__5`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.<GetAllListAsync>d__7.MoveNext() 位置 E:\源代码\ABP_CMS\ABP\Abp.EntityFramework\EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 50
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Enterprises.CMS.UserList.UserAppService.<GetUsers>d__4.MoveNext() 位置 E:\源代码\ABP_CMS\Enterprises.CMS.Application\UserList\UserAppService.cs:行号 35
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Threading.InternalAsyncHelper.<ReturnGenericTaskAfterAction>d__2`1.MoveNext() 位置 E:\源代码\ABP_CMS\ABP\Abp\Threading\InternalAsyncHelper.cs:行号 35
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Enterprises.CMS.Web.Controllers.UsersController.<Index>d__2.MoveNext() 位置 E:\源代码\ABP_CMS\Enterprises.CMS.Web\Controllers\UsersController.cs:行号 27
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-05-10 22:44:53,948 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-10 22:44:57,232 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2017-05-10 22:44:57,236 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:44:57,238 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:44:57,238 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:44:57,238 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:44:57,238 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:44:57,239 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:44:57,239 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:44:57,239 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:44:57,239 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSApplicationModule, Enterprises.CMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:44:57,239 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSCoreModule, Enterprises.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:44:57,239 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSDataModule, Enterprises.CMS.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:44:57,239 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.Web.CMSWebModule, Enterprises.CMS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:44:57,240 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSWebApiModule, Enterprises.CMS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 22:44:57,243 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2017-05-10 22:44:57,888 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2017-05-10 22:44:57,888 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.CreateUserInput
+DEBUG 2017-05-10 22:44:57,961 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserInfoDto
+DEBUG 2017-05-10 22:44:57,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserListDto
+DEBUG 2017-05-10 22:44:57,969 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-10 22:44:57,977 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-10 22:44:58,635 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.UserList.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-10 22:44:58,637 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-10 22:44:58,660 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-10 22:44:58,664 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-10 22:44:58,664 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-10 22:44:58,665 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
+DEBUG 2017-05-10 22:44:58,665 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-10 23:13:45,132 [130  ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-10 23:13:47,515 [130  ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2017-05-10 23:13:47,520 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:13:47,522 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:13:47,522 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:13:47,522 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:13:47,522 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:13:47,522 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:13:47,522 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:13:47,522 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:13:47,522 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSApplicationModule, Enterprises.CMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:13:47,523 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSCoreModule, Enterprises.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:13:47,523 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSDataModule, Enterprises.CMS.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:13:47,523 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.Web.CMSWebModule, Enterprises.CMS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:13:47,523 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSWebApiModule, Enterprises.CMS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:13:47,528 [130  ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2017-05-10 23:13:48,972 [130  ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2017-05-10 23:13:48,972 [130  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.CreateUserInput
+DEBUG 2017-05-10 23:13:49,091 [130  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserInfoDto
+DEBUG 2017-05-10 23:13:49,095 [130  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserListDto
+DEBUG 2017-05-10 23:13:49,102 [130  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-10 23:13:49,109 [130  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-10 23:13:55,114 [130  ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.UserList.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-10 23:13:55,116 [130  ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-10 23:13:55,375 [130  ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-10 23:13:55,381 [130  ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-10 23:13:55,381 [130  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-10 23:13:55,382 [130  ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
+DEBUG 2017-05-10 23:13:55,382 [130  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-10 23:21:09,268 [74   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-10 23:21:10,521 [74   ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2017-05-10 23:21:10,525 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:21:10,527 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:21:10,527 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:21:10,527 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:21:10,527 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:21:10,527 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:21:10,527 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:21:10,527 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:21:10,528 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSApplicationModule, Enterprises.CMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:21:10,528 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSCoreModule, Enterprises.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:21:10,528 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSDataModule, Enterprises.CMS.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:21:10,528 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.Web.CMSWebModule, Enterprises.CMS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:21:10,528 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSWebApiModule, Enterprises.CMS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:21:10,532 [74   ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2017-05-10 23:21:11,275 [74   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2017-05-10 23:21:11,275 [74   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.CreateUserInput
+DEBUG 2017-05-10 23:21:11,344 [74   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserInfoDto
+DEBUG 2017-05-10 23:21:11,354 [74   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserListDto
+DEBUG 2017-05-10 23:21:11,359 [74   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-10 23:21:11,366 [74   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-10 23:21:12,047 [74   ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.UserList.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-10 23:21:12,049 [74   ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-10 23:21:12,163 [74   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-10 23:21:12,168 [74   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-10 23:21:12,168 [74   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-10 23:21:12,169 [74   ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
+DEBUG 2017-05-10 23:21:12,169 [74   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-10 23:25:16,993 [74   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-10 23:25:18,353 [74   ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2017-05-10 23:25:18,358 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:25:18,360 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:25:18,360 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:25:18,360 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:25:18,360 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:25:18,360 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:25:18,361 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:25:18,361 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:25:18,361 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSApplicationModule, Enterprises.CMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:25:18,361 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSCoreModule, Enterprises.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:25:18,361 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSDataModule, Enterprises.CMS.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:25:18,361 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.Web.CMSWebModule, Enterprises.CMS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:25:18,361 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSWebApiModule, Enterprises.CMS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:25:18,365 [74   ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2017-05-10 23:25:19,190 [74   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2017-05-10 23:25:19,191 [74   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.CreateUserInput
+DEBUG 2017-05-10 23:25:19,277 [74   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserInfoDto
+DEBUG 2017-05-10 23:25:19,291 [74   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserListDto
+DEBUG 2017-05-10 23:25:19,297 [74   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-10 23:25:19,305 [74   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-10 23:25:20,134 [74   ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.UserList.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-10 23:25:20,136 [74   ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-10 23:25:20,267 [74   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-10 23:25:20,272 [74   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-10 23:25:20,273 [74   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-10 23:25:20,274 [74   ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
+DEBUG 2017-05-10 23:25:20,275 [74   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-10 23:28:39,488 [123  ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-10 23:28:40,931 [123  ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2017-05-10 23:28:40,935 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:28:40,937 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:28:40,937 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:28:40,937 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:28:40,937 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:28:40,937 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:28:40,938 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:28:40,938 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:28:40,938 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSApplicationModule, Enterprises.CMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:28:40,938 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSCoreModule, Enterprises.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:28:40,938 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSDataModule, Enterprises.CMS.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:28:40,938 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.Web.CMSWebModule, Enterprises.CMS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:28:40,938 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSWebApiModule, Enterprises.CMS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:28:40,942 [123  ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2017-05-10 23:28:41,781 [123  ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2017-05-10 23:28:41,781 [123  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.CreateUserInput
+DEBUG 2017-05-10 23:28:41,871 [123  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserInfoDto
+DEBUG 2017-05-10 23:28:41,881 [123  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserListDto
+DEBUG 2017-05-10 23:28:41,887 [123  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-10 23:28:41,893 [123  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-10 23:28:42,682 [123  ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.UserList.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-10 23:28:42,684 [123  ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-10 23:28:42,808 [123  ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-10 23:28:42,813 [123  ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-10 23:28:42,814 [123  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-10 23:28:42,815 [123  ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
+DEBUG 2017-05-10 23:28:42,816 [123  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-10 23:31:35,096 [130  ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-10 23:31:36,184 [130  ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2017-05-10 23:31:36,187 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:31:36,189 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:31:36,189 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:31:36,190 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:31:36,190 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:31:36,190 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:31:36,190 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:31:36,190 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:31:36,190 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSApplicationModule, Enterprises.CMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:31:36,190 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSCoreModule, Enterprises.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:31:36,190 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSDataModule, Enterprises.CMS.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:31:36,190 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.Web.CMSWebModule, Enterprises.CMS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:31:36,190 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSWebApiModule, Enterprises.CMS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 23:31:36,194 [130  ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2017-05-10 23:31:36,854 [130  ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2017-05-10 23:31:36,854 [130  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.CreateUserInput
+DEBUG 2017-05-10 23:31:36,924 [130  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserInfoDto
+DEBUG 2017-05-10 23:31:36,934 [130  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserListDto
+DEBUG 2017-05-10 23:31:36,939 [130  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-10 23:31:36,948 [130  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-10 23:31:37,719 [130  ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.UserList.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-10 23:31:37,720 [130  ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-10 23:31:37,848 [130  ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-10 23:31:37,852 [130  ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-10 23:31:37,853 [130  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-10 23:31:37,853 [130  ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
+DEBUG 2017-05-10 23:31:37,854 [130  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-10 23:31:39,414 [100  ] Enterprises.CMS.UserList.UserAppService  - 3
+DEBUG 2017-05-10 23:31:45,797 [105  ] Enterprises.CMS.UserList.UserAppService  - 4
+DEBUG 2017-05-13 12:31:50,191 [129  ] Enterprises.CMS.UserList.UserAppService  - 5
+DEBUG 2017-05-13 12:36:23,198 [90   ] Enterprises.CMS.UserList.UserAppService  - 6
+DEBUG 2017-05-13 12:37:29,905 [95   ] Enterprises.CMS.UserList.UserAppService  - 7
+DEBUG 2017-05-13 12:39:00,622 [88   ] Enterprises.CMS.UserList.UserAppService  - 8
+DEBUG 2017-05-13 12:39:10,667 [82   ] Enterprises.CMS.UserList.UserAppService  - 9
+DEBUG 2017-05-13 12:39:17,451 [84   ] Enterprises.CMS.UserList.UserAppService  - 10
+DEBUG 2017-05-13 12:39:21,339 [82   ] Enterprises.CMS.UserList.UserAppService  - 11
+DEBUG 2017-05-13 12:41:15,027 [11   ] Enterprises.CMS.UserList.UserAppService  - 12
+DEBUG 2017-05-13 12:48:33,973 [123  ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-13 12:48:36,408 [123  ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2017-05-13 12:48:36,413 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:48:36,415 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:48:36,415 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:48:36,415 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:48:36,416 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:48:36,416 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:48:36,416 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:48:36,416 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:48:36,416 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSApplicationModule, Enterprises.CMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:48:36,416 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSCoreModule, Enterprises.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:48:36,416 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSDataModule, Enterprises.CMS.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:48:36,416 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.Web.CMSWebModule, Enterprises.CMS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:48:36,416 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSWebApiModule, Enterprises.CMS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:48:36,421 [123  ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2017-05-13 12:48:37,910 [123  ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2017-05-13 12:48:37,910 [123  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.CreateUserInput
+DEBUG 2017-05-13 12:48:38,156 [123  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserInfoDto
+DEBUG 2017-05-13 12:48:38,167 [123  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserListDto
+DEBUG 2017-05-13 12:48:38,172 [123  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-13 12:48:38,181 [123  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-13 12:48:39,693 [123  ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.UserList.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-13 12:48:39,695 [123  ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-13 12:48:39,858 [123  ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-13 12:48:39,863 [123  ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-13 12:48:39,863 [123  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-13 12:48:39,887 [123  ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
+DEBUG 2017-05-13 12:48:39,887 [123  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-13 12:48:53,883 [40   ] Enterprises.CMS.UserList.UserAppService  - 13
+DEBUG 2017-05-13 12:50:55,082 [16   ] Enterprises.CMS.UserList.UserAppService  - 14
+DEBUG 2017-05-13 12:55:08,304 [123  ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-13 12:55:09,680 [123  ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2017-05-13 12:55:09,685 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:55:09,687 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:55:09,687 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:55:09,688 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:55:09,688 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:55:09,688 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:55:09,688 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:55:09,688 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:55:09,688 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSApplicationModule, Enterprises.CMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:55:09,688 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSCoreModule, Enterprises.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:55:09,688 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSDataModule, Enterprises.CMS.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:55:09,688 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.Web.CMSWebModule, Enterprises.CMS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:55:09,688 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSWebApiModule, Enterprises.CMS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:55:09,692 [123  ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2017-05-13 12:55:10,448 [123  ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2017-05-13 12:55:10,448 [123  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.CreateUserInput
+DEBUG 2017-05-13 12:55:10,536 [123  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserInfoDto
+DEBUG 2017-05-13 12:55:10,547 [123  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserListDto
+DEBUG 2017-05-13 12:55:10,553 [123  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-13 12:55:10,559 [123  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-13 12:55:11,307 [123  ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.UserList.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-13 12:55:11,309 [123  ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-13 12:55:11,426 [123  ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-13 12:55:11,430 [123  ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-13 12:55:11,431 [123  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-13 12:55:11,431 [123  ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
+DEBUG 2017-05-13 12:55:11,432 [123  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-13 12:55:45,254 [48   ] Enterprises.CMS.UserList.UserAppService  - 15
+DEBUG 2017-05-13 12:56:43,756 [123  ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-13 12:56:45,052 [123  ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2017-05-13 12:56:45,056 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:56:45,058 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:56:45,058 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:56:45,058 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:56:45,058 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:56:45,058 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:56:45,058 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:56:45,058 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:56:45,058 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSApplicationModule, Enterprises.CMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:56:45,059 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSCoreModule, Enterprises.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:56:45,059 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSDataModule, Enterprises.CMS.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:56:45,059 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.Web.CMSWebModule, Enterprises.CMS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:56:45,059 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSWebApiModule, Enterprises.CMS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 12:56:45,062 [123  ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2017-05-13 12:56:45,754 [123  ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2017-05-13 12:56:45,754 [123  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.CreateUserInput
+DEBUG 2017-05-13 12:56:45,826 [123  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserInfoDto
+DEBUG 2017-05-13 12:56:45,836 [123  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserListDto
+DEBUG 2017-05-13 12:56:45,841 [123  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-13 12:56:45,847 [123  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-13 12:56:46,613 [123  ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.UserList.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-13 12:56:46,616 [123  ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-13 12:56:46,731 [123  ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-13 12:56:46,735 [123  ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-13 12:56:46,736 [123  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-13 12:56:46,736 [123  ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
+DEBUG 2017-05-13 12:56:46,737 [123  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-13 12:57:01,589 [93   ] Enterprises.CMS.UserList.UserAppService  - 16
+DEBUG 2017-05-13 12:57:42,339 [82   ] Enterprises.CMS.UserList.UserAppService  - 17
+DEBUG 2017-05-13 13:07:31,558 [17   ] Enterprises.CMS.UserList.UserAppService  - 18
+DEBUG 2017-05-13 13:08:06,446 [21   ] Enterprises.CMS.UserList.UserAppService  - 19
+DEBUG 2017-05-13 13:12:34,791 [79   ] Enterprises.CMS.UserList.UserAppService  - 20
+DEBUG 2017-05-13 13:13:57,596 [126  ] Enterprises.CMS.UserList.UserAppService  - 21
+DEBUG 2017-05-13 13:17:34,818 [11   ] Enterprises.CMS.UserList.UserAppService  - 22
+DEBUG 2017-05-13 13:17:58,223 [85   ] Enterprises.CMS.UserList.UserAppService  - 23
+DEBUG 2017-05-13 13:18:18,387 [85   ] Enterprises.CMS.UserList.UserAppService  - 24
+DEBUG 2017-05-13 13:20:12,283 [127  ] Enterprises.CMS.UserList.UserAppService  - 25
+ERROR 2017-05-13 13:26:58,258 [129  ] .Mvc.Controllers.AbpHandleErrorAttribute - System.Web.HttpCompileException (0x80004005): e:\源代码\ABP_CMS\Enterprises.CMS.Web\Views\Shared\_Layout.cshtml(11): error CS0103: 当前上下文中不存在名称“Styles”
+   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   在 System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   在 System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   在 System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   在 System.Web.WebPages.WebPageBase.CreatePageFromVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, DisplayModeProvider displayModeProvider, IDisplayMode displayMode)
+   在 System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   在 System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   在 System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   在 System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   在 System.Web.WebPages.WebPageBase.PopContext()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.Web.HttpCompileException (0x80004005): e:\源代码\ABP_CMS\Enterprises.CMS.Web\Views\Shared\_Layout.cshtml(11): error CS0103: 当前上下文中不存在名称“Styles”
+   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   在 System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   在 System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   在 System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   在 System.Web.WebPages.WebPageBase.CreatePageFromVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, DisplayModeProvider displayModeProvider, IDisplayMode displayMode)
+   在 System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   在 System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   在 System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   在 System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   在 System.Web.WebPages.WebPageBase.PopContext()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-05-13 13:28:24,398 [40   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-13 13:28:25,477 [40   ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2017-05-13 13:28:25,482 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:28:25,484 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:28:25,485 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:28:25,485 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:28:25,485 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:28:25,485 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:28:25,485 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:28:25,485 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:28:25,485 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSApplicationModule, Enterprises.CMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:28:25,485 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSCoreModule, Enterprises.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:28:25,485 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSDataModule, Enterprises.CMS.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:28:25,485 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.Web.CMSWebModule, Enterprises.CMS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:28:25,486 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSWebApiModule, Enterprises.CMS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:28:25,489 [40   ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2017-05-13 13:28:26,166 [40   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2017-05-13 13:28:26,166 [40   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.CreateUserInput
+DEBUG 2017-05-13 13:28:26,235 [40   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserInfoDto
+DEBUG 2017-05-13 13:28:26,246 [40   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserListDto
+DEBUG 2017-05-13 13:28:26,253 [40   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-13 13:28:26,259 [40   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-13 13:28:26,953 [40   ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.UserList.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-13 13:28:26,955 [40   ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-13 13:28:27,089 [40   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-13 13:28:27,094 [40   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-13 13:28:27,095 [40   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-13 13:28:27,096 [40   ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
+DEBUG 2017-05-13 13:28:27,096 [40   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+ERROR 2017-05-13 13:28:31,538 [27   ] .Mvc.Controllers.AbpHandleErrorAttribute - System.Web.HttpCompileException (0x80004005): e:\源代码\ABP_CMS\Enterprises.CMS.Web\Views\Shared\_Layout.cshtml(10): error CS0103: 当前上下文中不存在名称“Styles”
+   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   在 System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   在 System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   在 System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   在 System.Web.WebPages.WebPageBase.CreatePageFromVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, DisplayModeProvider displayModeProvider, IDisplayMode displayMode)
+   在 System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   在 System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   在 System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   在 System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   在 System.Web.WebPages.WebPageBase.PopContext()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.Web.HttpCompileException (0x80004005): e:\源代码\ABP_CMS\Enterprises.CMS.Web\Views\Shared\_Layout.cshtml(10): error CS0103: 当前上下文中不存在名称“Styles”
+   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   在 System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   在 System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   在 System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   在 System.Web.WebPages.WebPageBase.CreatePageFromVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, DisplayModeProvider displayModeProvider, IDisplayMode displayMode)
+   在 System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   在 System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   在 System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   在 System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   在 System.Web.WebPages.WebPageBase.PopContext()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-05-13 13:30:12,565 [40   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-13 13:30:13,823 [40   ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2017-05-13 13:30:13,828 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:30:13,831 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:30:13,831 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:30:13,832 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:30:13,832 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:30:13,832 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:30:13,832 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:30:13,832 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:30:13,832 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSApplicationModule, Enterprises.CMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:30:13,832 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSCoreModule, Enterprises.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:30:13,833 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSDataModule, Enterprises.CMS.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:30:13,833 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.Web.CMSWebModule, Enterprises.CMS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:30:13,833 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSWebApiModule, Enterprises.CMS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:30:13,839 [40   ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2017-05-13 13:30:14,557 [40   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2017-05-13 13:30:14,557 [40   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.CreateUserInput
+DEBUG 2017-05-13 13:30:14,623 [40   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserInfoDto
+DEBUG 2017-05-13 13:30:14,633 [40   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserListDto
+DEBUG 2017-05-13 13:30:14,640 [40   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-13 13:30:14,646 [40   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-13 13:30:15,359 [40   ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.UserList.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-13 13:30:15,361 [40   ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-13 13:30:15,476 [40   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-13 13:30:15,480 [40   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-13 13:30:15,481 [40   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-13 13:30:15,482 [40   ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
+DEBUG 2017-05-13 13:30:15,482 [40   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+ERROR 2017-05-13 13:30:21,455 [127  ] .Mvc.Controllers.AbpHandleErrorAttribute - System.Web.HttpCompileException (0x80004005): e:\源代码\ABP_CMS\Enterprises.CMS.Web\Views\Shared\_Layout.cshtml(10): error CS0103: 当前上下文中不存在名称“Styles”
+   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   在 System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   在 System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   在 System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   在 System.Web.WebPages.WebPageBase.CreatePageFromVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, DisplayModeProvider displayModeProvider, IDisplayMode displayMode)
+   在 System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   在 System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   在 System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   在 System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   在 System.Web.WebPages.WebPageBase.PopContext()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.Web.HttpCompileException (0x80004005): e:\源代码\ABP_CMS\Enterprises.CMS.Web\Views\Shared\_Layout.cshtml(10): error CS0103: 当前上下文中不存在名称“Styles”
+   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   在 System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   在 System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   在 System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   在 System.Web.WebPages.WebPageBase.CreatePageFromVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, DisplayModeProvider displayModeProvider, IDisplayMode displayMode)
+   在 System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   在 System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   在 System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   在 System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   在 System.Web.WebPages.WebPageBase.PopContext()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-05-13 13:32:38,419 [40   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-13 13:32:39,758 [40   ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2017-05-13 13:32:39,762 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:32:39,764 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:32:39,764 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:32:39,764 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:32:39,764 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:32:39,764 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:32:39,764 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:32:39,764 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:32:39,764 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSApplicationModule, Enterprises.CMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:32:39,764 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSCoreModule, Enterprises.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:32:39,765 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSDataModule, Enterprises.CMS.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:32:39,765 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.Web.CMSWebModule, Enterprises.CMS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:32:39,765 [40   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSWebApiModule, Enterprises.CMS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 13:32:39,769 [40   ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2017-05-13 13:32:40,493 [40   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2017-05-13 13:32:40,493 [40   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.CreateUserInput
+DEBUG 2017-05-13 13:32:40,567 [40   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserInfoDto
+DEBUG 2017-05-13 13:32:40,579 [40   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserListDto
+DEBUG 2017-05-13 13:32:40,584 [40   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-13 13:32:40,591 [40   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-13 13:32:41,336 [40   ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.UserList.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-13 13:32:41,338 [40   ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-13 13:32:41,468 [40   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-13 13:32:41,472 [40   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-13 13:32:41,473 [40   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-13 13:32:41,474 [40   ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
+DEBUG 2017-05-13 13:32:41,474 [40   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-13 13:34:27,773 [121  ] Enterprises.CMS.UserList.UserAppService  - 26
+DEBUG 2017-05-13 13:34:42,892 [113  ] Enterprises.CMS.UserList.UserAppService  - 27
+DEBUG 2017-05-13 14:08:44,477 [74   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-13 14:08:45,650 [74   ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2017-05-13 14:08:45,653 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:08:45,656 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:08:45,656 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:08:45,656 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:08:45,656 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:08:45,656 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:08:45,656 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:08:45,657 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:08:45,657 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSApplicationModule, Enterprises.CMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:08:45,657 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSCoreModule, Enterprises.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:08:45,657 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSDataModule, Enterprises.CMS.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:08:45,657 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.Web.CMSWebModule, Enterprises.CMS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:08:45,657 [74   ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSWebApiModule, Enterprises.CMS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:08:45,662 [74   ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2017-05-13 14:08:46,365 [74   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2017-05-13 14:08:46,365 [74   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.CreateUserInput
+DEBUG 2017-05-13 14:08:46,449 [74   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserInfoDto
+DEBUG 2017-05-13 14:08:46,464 [74   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserListDto
+DEBUG 2017-05-13 14:08:46,471 [74   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-13 14:08:46,484 [74   ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-13 14:08:47,219 [74   ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.UserList.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-13 14:08:47,221 [74   ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-13 14:08:47,345 [74   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-13 14:08:47,349 [74   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-13 14:08:47,350 [74   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-13 14:08:47,350 [74   ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
+DEBUG 2017-05-13 14:08:47,351 [74   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+ERROR 2017-05-13 14:08:56,773 [31   ] .Mvc.Controllers.AbpHandleErrorAttribute - System.InvalidOperationException: This request has been blocked because sensitive information could be disclosed to third party web sites when this is used in a GET request. To allow GET requests, set JsonRequestBehavior to AllowGet.
+   在 Abp.Web.Mvc.Controllers.Results.AbpJsonResult.ExecuteResult(ControllerContext context) 位置 E:\源代码\ABP_CMS\ABP\Abp.Web.Mvc\Web\Mvc\Controllers\Results\AbpJsonResult.cs:行号 43
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.InvalidOperationException: This request has been blocked because sensitive information could be disclosed to third party web sites when this is used in a GET request. To allow GET requests, set JsonRequestBehavior to AllowGet.
+   在 Abp.Web.Mvc.Controllers.Results.AbpJsonResult.ExecuteResult(ControllerContext context) 位置 E:\源代码\ABP_CMS\ABP\Abp.Web.Mvc\Web\Mvc\Controllers\Results\AbpJsonResult.cs:行号 43
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2017-05-13 14:10:01,635 [24   ] .Mvc.Controllers.AbpHandleErrorAttribute - System.InvalidOperationException: This request has been blocked because sensitive information could be disclosed to third party web sites when this is used in a GET request. To allow GET requests, set JsonRequestBehavior to AllowGet.
+   在 Abp.Web.Mvc.Controllers.Results.AbpJsonResult.ExecuteResult(ControllerContext context) 位置 E:\源代码\ABP_CMS\ABP\Abp.Web.Mvc\Web\Mvc\Controllers\Results\AbpJsonResult.cs:行号 43
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.InvalidOperationException: This request has been blocked because sensitive information could be disclosed to third party web sites when this is used in a GET request. To allow GET requests, set JsonRequestBehavior to AllowGet.
+   在 Abp.Web.Mvc.Controllers.Results.AbpJsonResult.ExecuteResult(ControllerContext context) 位置 E:\源代码\ABP_CMS\ABP\Abp.Web.Mvc\Web\Mvc\Controllers\Results\AbpJsonResult.cs:行号 43
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-05-13 14:11:40,799 [130  ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-13 14:11:42,189 [130  ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2017-05-13 14:11:42,194 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:11:42,196 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:11:42,196 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:11:42,197 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:11:42,197 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:11:42,197 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:11:42,197 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:11:42,197 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:11:42,197 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSApplicationModule, Enterprises.CMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:11:42,197 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSCoreModule, Enterprises.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:11:42,197 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSDataModule, Enterprises.CMS.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:11:42,197 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.Web.CMSWebModule, Enterprises.CMS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:11:42,197 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSWebApiModule, Enterprises.CMS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:11:42,201 [130  ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2017-05-13 14:11:42,996 [130  ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2017-05-13 14:11:42,996 [130  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.CreateUserInput
+DEBUG 2017-05-13 14:11:43,078 [130  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserInfoDto
+DEBUG 2017-05-13 14:11:43,090 [130  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserListDto
+DEBUG 2017-05-13 14:11:43,098 [130  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-13 14:11:43,106 [130  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-13 14:11:43,927 [130  ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.UserList.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-13 14:11:43,928 [130  ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-13 14:11:44,049 [130  ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-13 14:11:44,054 [130  ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-13 14:11:44,055 [130  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-13 14:11:44,056 [130  ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
+DEBUG 2017-05-13 14:11:44,056 [130  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+ERROR 2017-05-13 14:11:54,535 [124  ] .Mvc.Controllers.AbpHandleErrorAttribute - System.InvalidOperationException: This request has been blocked because sensitive information could be disclosed to third party web sites when this is used in a GET request. To allow GET requests, set JsonRequestBehavior to AllowGet.
+   在 Abp.Web.Mvc.Controllers.Results.AbpJsonResult.ExecuteResult(ControllerContext context) 位置 E:\源代码\ABP_CMS\ABP\Abp.Web.Mvc\Web\Mvc\Controllers\Results\AbpJsonResult.cs:行号 43
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.InvalidOperationException: This request has been blocked because sensitive information could be disclosed to third party web sites when this is used in a GET request. To allow GET requests, set JsonRequestBehavior to AllowGet.
+   在 Abp.Web.Mvc.Controllers.Results.AbpJsonResult.ExecuteResult(ControllerContext context) 位置 E:\源代码\ABP_CMS\ABP\Abp.Web.Mvc\Web\Mvc\Controllers\Results\AbpJsonResult.cs:行号 43
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2017-05-13 14:11:59,932 [24   ] .Mvc.Controllers.AbpHandleErrorAttribute - System.InvalidOperationException: This request has been blocked because sensitive information could be disclosed to third party web sites when this is used in a GET request. To allow GET requests, set JsonRequestBehavior to AllowGet.
+   在 Abp.Web.Mvc.Controllers.Results.AbpJsonResult.ExecuteResult(ControllerContext context) 位置 E:\源代码\ABP_CMS\ABP\Abp.Web.Mvc\Web\Mvc\Controllers\Results\AbpJsonResult.cs:行号 43
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.InvalidOperationException: This request has been blocked because sensitive information could be disclosed to third party web sites when this is used in a GET request. To allow GET requests, set JsonRequestBehavior to AllowGet.
+   在 Abp.Web.Mvc.Controllers.Results.AbpJsonResult.ExecuteResult(ControllerContext context) 位置 E:\源代码\ABP_CMS\ABP\Abp.Web.Mvc\Web\Mvc\Controllers\Results\AbpJsonResult.cs:行号 43
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2017-05-13 14:12:09,136 [51   ] .Mvc.Controllers.AbpHandleErrorAttribute - System.InvalidOperationException: This request has been blocked because sensitive information could be disclosed to third party web sites when this is used in a GET request. To allow GET requests, set JsonRequestBehavior to AllowGet.
+   在 Abp.Web.Mvc.Controllers.Results.AbpJsonResult.ExecuteResult(ControllerContext context) 位置 E:\源代码\ABP_CMS\ABP\Abp.Web.Mvc\Web\Mvc\Controllers\Results\AbpJsonResult.cs:行号 43
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.InvalidOperationException: This request has been blocked because sensitive information could be disclosed to third party web sites when this is used in a GET request. To allow GET requests, set JsonRequestBehavior to AllowGet.
+   在 Abp.Web.Mvc.Controllers.Results.AbpJsonResult.ExecuteResult(ControllerContext context) 位置 E:\源代码\ABP_CMS\ABP\Abp.Web.Mvc\Web\Mvc\Controllers\Results\AbpJsonResult.cs:行号 43
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2017-05-13 14:28:49,058 [78   ] .Mvc.Controllers.AbpHandleErrorAttribute - System.InvalidOperationException: This request has been blocked because sensitive information could be disclosed to third party web sites when this is used in a GET request. To allow GET requests, set JsonRequestBehavior to AllowGet.
+   在 Abp.Web.Mvc.Controllers.Results.AbpJsonResult.ExecuteResult(ControllerContext context) 位置 E:\源代码\ABP_CMS\ABP\Abp.Web.Mvc\Web\Mvc\Controllers\Results\AbpJsonResult.cs:行号 43
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.InvalidOperationException: This request has been blocked because sensitive information could be disclosed to third party web sites when this is used in a GET request. To allow GET requests, set JsonRequestBehavior to AllowGet.
+   在 Abp.Web.Mvc.Controllers.Results.AbpJsonResult.ExecuteResult(ControllerContext context) 位置 E:\源代码\ABP_CMS\ABP\Abp.Web.Mvc\Web\Mvc\Controllers\Results\AbpJsonResult.cs:行号 43
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-05-13 14:30:02,002 [130  ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-13 14:30:03,336 [130  ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2017-05-13 14:30:03,340 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:30:03,342 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:30:03,343 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:30:03,343 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:30:03,343 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:30:03,343 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:30:03,343 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:30:03,343 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:30:03,343 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSApplicationModule, Enterprises.CMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:30:03,343 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSCoreModule, Enterprises.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:30:03,343 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSDataModule, Enterprises.CMS.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:30:03,344 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.Web.CMSWebModule, Enterprises.CMS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:30:03,344 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSWebApiModule, Enterprises.CMS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:30:03,349 [130  ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2017-05-13 14:30:04,066 [130  ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2017-05-13 14:30:04,066 [130  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.CreateUserInput
+DEBUG 2017-05-13 14:30:04,151 [130  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserInfoDto
+DEBUG 2017-05-13 14:30:04,170 [130  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserListDto
+DEBUG 2017-05-13 14:30:04,177 [130  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-13 14:30:04,186 [130  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-13 14:30:04,947 [130  ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.UserList.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-13 14:30:04,949 [130  ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-13 14:30:05,083 [130  ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-13 14:30:05,089 [130  ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-13 14:30:05,090 [130  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-13 14:30:05,091 [130  ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
+DEBUG 2017-05-13 14:30:05,091 [130  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+ERROR 2017-05-13 14:36:17,651 [16   ] .Mvc.Controllers.AbpHandleErrorAttribute - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 Abp.EntityFramework.AbpDbContext.SaveChanges() 位置 E:\源代码\ABP_CMS\ABP\Abp.EntityFramework\EntityFramework\AbpDbContext.cs:行号 132
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.SaveChangesInDbContext(DbContext dbContext) 位置 E:\源代码\ABP_CMS\ABP\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:行号 157
+   在 Castle.Core.Internal.CollectionExtensions.ForEach[T](IEnumerable`1 items, Action`1 action)
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.SaveChanges() 位置 E:\源代码\ABP_CMS\ABP\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:行号 56
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.CompleteUow() 位置 E:\源代码\ABP_CMS\ABP\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:行号 69
+   在 Abp.Domain.Uow.UnitOfWorkBase.Complete() 位置 E:\源代码\ABP_CMS\ABP\Abp\Domain\Uow\UnitOfWorkBase.cs:行号 173
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) 位置 E:\源代码\ABP_CMS\ABP\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 61
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options) 位置 E:\源代码\ABP_CMS\ABP\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 52
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) 位置 E:\源代码\ABP_CMS\ABP\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 41
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation) 位置 E:\源代码\ABP_CMS\ABP\Abp\Auditing\AuditingInterceptor.cs:行号 65
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation) 位置 E:\源代码\ABP_CMS\ABP\Abp\Runtime\Validation\Interception\ValidationInterceptor.cs:行号 21
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.UserAppServiceProxy.Delete(Int64 id)
+   在 Enterprises.CMS.Web.Controllers.UsersController.Delete(Int64 id) 位置 E:\源代码\ABP_CMS\Enterprises.CMS.Web\Controllers\UsersController.cs:行号 49
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 Abp.EntityFramework.AbpDbContext.SaveChanges() 位置 E:\源代码\ABP_CMS\ABP\Abp.EntityFramework\EntityFramework\AbpDbContext.cs:行号 132
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.SaveChangesInDbContext(DbContext dbContext) 位置 E:\源代码\ABP_CMS\ABP\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:行号 157
+   在 Castle.Core.Internal.CollectionExtensions.ForEach[T](IEnumerable`1 items, Action`1 action)
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.SaveChanges() 位置 E:\源代码\ABP_CMS\ABP\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:行号 56
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.CompleteUow() 位置 E:\源代码\ABP_CMS\ABP\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:行号 69
+   在 Abp.Domain.Uow.UnitOfWorkBase.Complete() 位置 E:\源代码\ABP_CMS\ABP\Abp\Domain\Uow\UnitOfWorkBase.cs:行号 173
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) 位置 E:\源代码\ABP_CMS\ABP\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 61
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options) 位置 E:\源代码\ABP_CMS\ABP\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 52
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) 位置 E:\源代码\ABP_CMS\ABP\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 41
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation) 位置 E:\源代码\ABP_CMS\ABP\Abp\Auditing\AuditingInterceptor.cs:行号 65
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation) 位置 E:\源代码\ABP_CMS\ABP\Abp\Runtime\Validation\Interception\ValidationInterceptor.cs:行号 21
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.UserAppServiceProxy.Delete(Int64 id)
+   在 Enterprises.CMS.Web.Controllers.UsersController.Delete(Int64 id) 位置 E:\源代码\ABP_CMS\Enterprises.CMS.Web\Controllers\UsersController.cs:行号 49
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-05-13 14:46:43,186 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-13 14:46:44,322 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2017-05-13 14:46:44,326 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:46:44,328 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:46:44,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:46:44,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:46:44,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:46:44,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:46:44,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:46:44,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:46:44,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSApplicationModule, Enterprises.CMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:46:44,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSCoreModule, Enterprises.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:46:44,330 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSDataModule, Enterprises.CMS.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:46:44,330 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.Web.CMSWebModule, Enterprises.CMS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:46:44,330 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSWebApiModule, Enterprises.CMS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-13 14:46:44,335 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2017-05-13 14:46:45,052 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2017-05-13 14:46:45,052 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.CreateUserInput
+DEBUG 2017-05-13 14:46:45,129 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserInfoDto
+DEBUG 2017-05-13 14:46:45,141 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserListDto
+DEBUG 2017-05-13 14:46:45,148 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-13 14:46:45,156 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-13 14:46:45,900 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.UserList.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-13 14:46:45,903 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-13 14:46:46,015 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-13 14:46:46,020 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-13 14:46:46,021 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-13 14:46:46,022 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
+DEBUG 2017-05-13 14:46:46,022 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb

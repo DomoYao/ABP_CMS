@@ -1,3 +1,4 @@
+using System;
 using System.Threading.Tasks;
 using Abp.Application.Services;
 using Abp.Application.Services.Dto;
@@ -11,6 +12,7 @@ namespace Enterprises.CMS.UserList
 
 
         Task<ListResultDto<UserListDto>> GetUsers();
-
+        void Add(UserInfoDto model);
+        void Delete(long id);
     }
 }

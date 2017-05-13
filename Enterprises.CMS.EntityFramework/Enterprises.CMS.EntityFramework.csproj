@@ -101,6 +101,10 @@
     <Compile Include="Migrations\201601210307239_InitialCreate.Designer.cs">
       <DependentUpon>201601210307239_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201705101352426_editdb.cs" />
+    <Compile Include="Migrations\201705101352426_editdb.Designer.cs">
+      <DependentUpon>201705101352426_editdb.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="CMSDataModule.cs" />
     <Compile Include="Migrations\SeedData\DefaultTenantRoleAndUserBuilder.cs" />
@@ -137,6 +141,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201601210307239_InitialCreate.resx">
       <DependentUpon>201601210307239_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705101352426_editdb.resx">
+      <DependentUpon>201705101352426_editdb.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

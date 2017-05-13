@@ -4,6 +4,10 @@ using System.Web.Mvc;
 using Abp.Web.Mvc.Authorization;
 using Enterprises.CMS.UserList;
 using Microsoft.Owin.Security;
+using Enterprises.CMS.Web.Models.Users;
+using Enterprises.CMS.UserList.Dto;
+using System;
+using Abp.Web.Mvc.Controllers.Results;
 
 namespace Enterprises.CMS.Web.Controllers
 {
@@ -27,6 +31,25 @@ namespace Enterprises.CMS.Web.Controllers
             var output = await _userAppService.GetUsers();
             return View(output);
         }
+
+        /// <summary>
+        /// 用户列表
+        /// </summary>
+        /// <returns></returns>
+        [HttpPost]
+        public JsonResult Create(UserInfoDto model)
+        {
+            _userAppService.Add(model);
+            return Json(new { result = true, message = "" });
+        }
+
+        [HttpGet]
+        public ActionResult Delete(long id)
+        {
+            _userAppService.Delete(id);
+            return Json(new { result = true }, JsonRequestBehavior.AllowGet);
+        }
+
     }
 
   
