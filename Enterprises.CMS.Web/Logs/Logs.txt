@@ -8253,3 +8253,205 @@ DEBUG 2017-05-13 14:46:46,020 [1    ] Abp.Localization.LocalizationManager     -
 DEBUG 2017-05-13 14:46:46,021 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
 DEBUG 2017-05-13 14:46:46,022 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
 DEBUG 2017-05-13 14:46:46,022 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-14 10:28:21,275 [123  ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-14 10:28:27,230 [123  ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2017-05-14 10:28:27,234 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 10:28:27,236 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 10:28:27,236 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 10:28:27,237 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 10:28:27,237 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 10:28:27,237 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 10:28:27,237 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 10:28:27,237 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 10:28:27,237 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSApplicationModule, Enterprises.CMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 10:28:27,237 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSCoreModule, Enterprises.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 10:28:27,237 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSDataModule, Enterprises.CMS.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 10:28:27,238 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.Web.CMSWebModule, Enterprises.CMS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 10:28:27,238 [123  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSWebApiModule, Enterprises.CMS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 10:28:27,242 [123  ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2017-05-14 10:28:27,917 [123  ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2017-05-14 10:28:27,918 [123  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.CreateUserInput
+DEBUG 2017-05-14 10:28:28,001 [123  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserInfoDto
+DEBUG 2017-05-14 10:28:28,011 [123  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserListDto
+DEBUG 2017-05-14 10:28:28,016 [123  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-14 10:28:28,025 [123  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-14 10:28:28,768 [123  ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.UserList.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-14 10:28:28,770 [123  ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-14 10:28:28,797 [123  ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-14 10:28:28,802 [123  ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-14 10:28:28,803 [123  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-14 10:28:28,804 [123  ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
+DEBUG 2017-05-14 10:28:28,804 [123  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-14 11:18:34,048 [130  ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-14 11:18:37,957 [130  ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2017-05-14 11:18:37,962 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 11:18:37,963 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 11:18:37,963 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 11:18:37,963 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 11:18:37,964 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 11:18:37,964 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 11:18:37,964 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 11:18:37,964 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 11:18:37,965 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSApplicationModule, Enterprises.CMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 11:18:37,965 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSCoreModule, Enterprises.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 11:18:37,965 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSDataModule, Enterprises.CMS.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 11:18:37,965 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.Web.CMSWebModule, Enterprises.CMS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 11:18:37,966 [130  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSWebApiModule, Enterprises.CMS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 11:18:37,971 [130  ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2017-05-14 11:18:38,939 [130  ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2017-05-14 11:18:38,939 [130  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.CreateUserInput
+DEBUG 2017-05-14 11:18:39,007 [130  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserInfoDto
+DEBUG 2017-05-14 11:18:39,038 [130  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserListDto
+DEBUG 2017-05-14 11:18:39,049 [130  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-14 11:18:39,060 [130  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-14 11:18:39,973 [130  ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.UserList.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-14 11:18:39,975 [130  ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-14 11:18:39,992 [130  ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-14 11:18:39,994 [130  ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-14 11:18:39,994 [130  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-14 11:18:39,995 [130  ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
+DEBUG 2017-05-14 11:18:39,995 [130  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+ERROR 2017-05-14 11:32:50,076 [121  ] .Mvc.Controllers.AbpHandleErrorAttribute - System.Web.HttpException (0x80004005): The following sections have been defined but have not been rendered for the layout page "~/Views/Shared/_Layout.cshtml": "Scripts".
+   在 System.Web.WebPages.WebPageBase.VerifyRenderedBodyOrSections()
+   在 System.Web.WebPages.WebPageBase.PopContext()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   在 System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   在 System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   在 System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   在 System.Web.WebPages.WebPageBase.PopContext()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.Web.HttpException (0x80004005): The following sections have been defined but have not been rendered for the layout page "~/Views/Shared/_Layout.cshtml": "Scripts".
+   在 System.Web.WebPages.WebPageBase.VerifyRenderedBodyOrSections()
+   在 System.Web.WebPages.WebPageBase.PopContext()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   在 System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   在 System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   在 System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   在 System.Web.WebPages.WebPageBase.PopContext()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2017-05-14 11:34:04,523 [27   ] .Mvc.Controllers.AbpHandleErrorAttribute - System.Web.HttpException (0x80004005): The following sections have been defined but have not been rendered for the layout page "~/Views/Shared/_Layout.cshtml": "Scripts".
+   在 System.Web.WebPages.WebPageBase.VerifyRenderedBodyOrSections()
+   在 System.Web.WebPages.WebPageBase.PopContext()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   在 System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   在 System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   在 System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   在 System.Web.WebPages.WebPageBase.PopContext()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.Web.HttpException (0x80004005): The following sections have been defined but have not been rendered for the layout page "~/Views/Shared/_Layout.cshtml": "Scripts".
+   在 System.Web.WebPages.WebPageBase.VerifyRenderedBodyOrSections()
+   在 System.Web.WebPages.WebPageBase.PopContext()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   在 System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   在 System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   在 System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   在 System.Web.WebPages.WebPageBase.PopContext()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2017-05-14 11:34:14,261 [81   ] .Mvc.Controllers.AbpHandleErrorAttribute - System.Web.HttpException (0x80004005): The following sections have been defined but have not been rendered for the layout page "~/Views/Shared/_Layout.cshtml": "Scripts".
+   在 System.Web.WebPages.WebPageBase.VerifyRenderedBodyOrSections()
+   在 System.Web.WebPages.WebPageBase.PopContext()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   在 System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   在 System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   在 System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   在 System.Web.WebPages.WebPageBase.PopContext()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.Web.HttpException (0x80004005): The following sections have been defined but have not been rendered for the layout page "~/Views/Shared/_Layout.cshtml": "Scripts".
+   在 System.Web.WebPages.WebPageBase.VerifyRenderedBodyOrSections()
+   在 System.Web.WebPages.WebPageBase.PopContext()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   在 System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   在 System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   在 System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   在 System.Web.WebPages.WebPageBase.PopContext()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-05-14 11:41:43,752 [124  ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-14 11:41:46,988 [124  ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2017-05-14 11:41:46,993 [124  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 11:41:46,995 [124  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 11:41:46,996 [124  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 11:41:46,996 [124  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 11:41:46,996 [124  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 11:41:46,996 [124  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 11:41:46,996 [124  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 11:41:46,997 [124  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 11:41:46,997 [124  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSApplicationModule, Enterprises.CMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 11:41:46,997 [124  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSCoreModule, Enterprises.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 11:41:46,997 [124  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSDataModule, Enterprises.CMS.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 11:41:46,997 [124  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.Web.CMSWebModule, Enterprises.CMS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 11:41:46,997 [124  ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSWebApiModule, Enterprises.CMS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-14 11:41:47,001 [124  ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2017-05-14 11:41:47,730 [124  ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2017-05-14 11:41:47,730 [124  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.CreateUserInput
+DEBUG 2017-05-14 11:41:47,805 [124  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserInfoDto
+DEBUG 2017-05-14 11:41:47,819 [124  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserListDto
+DEBUG 2017-05-14 11:41:47,825 [124  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-14 11:41:47,833 [124  ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-14 11:41:48,581 [124  ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.UserList.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-14 11:41:48,583 [124  ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-14 11:41:48,614 [124  ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-14 11:41:48,620 [124  ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-14 11:41:48,620 [124  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-14 11:41:48,621 [124  ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
+DEBUG 2017-05-14 11:41:48,621 [124  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-14 12:03:33,987 [128  ] Enterprises.CMS.UserList.UserAppService  - 28
