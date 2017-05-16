@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DFA48E27-7D53-4955-A722-3D91A7119BE7}"
 	ProjectSection(SolutionItems) = preProject
@@ -167,5 +167,8 @@ Global
 		{47853DCA-C058-42F4-B020-E9AC659C9204} = {AF4D066B-15F1-47F4-AE55-6FB2FF78828D}
 		{C43A88EE-1537-40BB-8154-4271E6AAD919} = {AF4D066B-15F1-47F4-AE55-6FB2FF78828D}
 		{587409A2-2470-4CC4-8F81-DB0A2B3E57A5} = {AF4D066B-15F1-47F4-AE55-6FB2FF78828D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
 	EndGlobalSection
 EndGlobal
