@@ -28,9 +28,9 @@
                 type: 'warning',
                 title: 'Are you sure?',
                 showCancelButton: true,
-                cancelButtonText: 'Cancel',
+                cancelButtonText: '取消',
                 confirmButtonColor: "#DD6B55",
-                confirmButtonText: 'Yes'
+                confirmButtonText: '确定'
             }
         }
     };
@@ -104,8 +104,8 @@
 
     abp.event.on('abp.dynamicScriptsInitialized', function () {
         abp.libs.sweetAlert.config.confirm.title = abp.localization.abpWeb('AreYouSure');
-        abp.libs.sweetAlert.config.confirm.cancelButtonText = abp.localization.abpWeb('Cancel');
-        abp.libs.sweetAlert.config.confirm.confirmButtonText = abp.localization.abpWeb('Yes');
+        abp.libs.sweetAlert.config.confirm.cancelButtonText = abp.localization.abpWeb('取消');
+        abp.libs.sweetAlert.config.confirm.confirmButtonText = abp.localization.abpWeb('确定');
     });
 
 })(jQuery);

@@ -1171,6 +1171,7 @@
     <Content Include="Scripts\jquery-ui-1.11.4.js" />
     <Content Include="Scripts\jquery-ui-1.11.4.min.js" />
     <Content Include="Scripts\jquery.blockUI.js" />
+    <Content Include="Scripts\jquery.form.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\json2.js" />
@@ -1200,6 +1201,7 @@
     <Content Include="Views\Account\Login.min.css">
       <DependentUpon>Login.css</DependentUpon>
     </Content>
+    <Content Include="Views\Users\Users.js" />
     <Content Include="Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
   </ItemGroup>
@@ -1218,6 +1220,7 @@
     </Compile>
     <Compile Include="Models\Account\LoginFormViewModel.cs" />
     <Compile Include="Models\Account\LoginViewModel.cs" />
+    <Compile Include="Models\Users\UserViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\CMSWebViewPageBase.cs" />
   </ItemGroup>
@@ -1235,6 +1238,14 @@
     <None Include="Views\Shared\_Footer.cshtml" />
     <None Include="Views\Shared\_LeftMenu.cshtml" />
     <None Include="Views\Users\Index.cshtml" />
+    <Content Include="Web_MySql.config" />
+    <Content Include="Web_MySql.Debug.config">
+      <DependentUpon>Web_MySql.config</DependentUpon>
+    </Content>
+    <Content Include="Web_MySql.Release.config">
+      <DependentUpon>Web_MySql.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Users\_Create.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

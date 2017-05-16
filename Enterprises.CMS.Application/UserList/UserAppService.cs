@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Abp.Application.Services.Dto;
@@ -29,6 +30,10 @@ namespace Enterprises.CMS.UserList
         }
 
       
+        /// <summary>
+        /// 获取用户列表
+        /// </summary>
+        /// <returns></returns>
 
         public async Task<ListResultDto<UserListDto>> GetUsers()
         {
@@ -37,6 +42,31 @@ namespace Enterprises.CMS.UserList
             return new ListResultDto<UserListDto>(users.MapTo<List<UserListDto>>());
         }
 
-       
+        /// <summary>
+        /// 新增用户
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        public void Add(UserInfoDto model)
+        {
+            var entity = model.MapTo<User>();
+            entity.TenantId = 1;
+            entity.IsEmailConfirmed = false;
+            entity.IsMobileConfirmed = false;
+            entity.Password = "123456";
+            entity.Surname = entity.Name;
+            entity.Mobile = "13606806123";
+            var userid = _userRepository.InsertAndGetId(entity);
+            Logger.Debug(userid.ToString);
+        }
+
+        /// <summary>
+        /// 删除用户
+        /// </summary>
+        /// <param name="id"></param>
+        public void Delete(long id)
+        {
+            _userRepository.Delete(id);
+        }
     }
 }
