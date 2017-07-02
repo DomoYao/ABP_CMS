@@ -83,6 +83,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Authorization\CMSAuthorizationProvider.cs" />
+    <Compile Include="Authorization\PermissionNames.cs" />
+    <Compile Include="Authorization\Roles\StaticRoleNames.cs" />
     <Compile Include="CMSConsts.cs" />
     <Compile Include="CMSCoreModule.cs" />
     <Compile Include="Authorization\PermissionChecker.cs" />

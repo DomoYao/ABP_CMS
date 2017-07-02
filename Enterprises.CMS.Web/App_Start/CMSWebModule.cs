@@ -10,7 +10,7 @@ using Abp.Web.Mvc;
 
 namespace Enterprises.CMS.Web
 {
-    [DependsOn(typeof(CMSDataModule), typeof(CMSApplicationModule), typeof(CMSWebApiModule), typeof(AbpWebMvcModule))]
+    [DependsOn(typeof(CMSDataModule), typeof(CMSApplicationModule), typeof(CMSWebApiModule), typeof(CMSCoreModule), typeof(AbpWebMvcModule))]
     public class CMSWebModule : AbpModule
     {
         public override void PreInitialize()

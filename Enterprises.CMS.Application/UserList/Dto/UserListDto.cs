@@ -17,6 +17,7 @@ namespace Enterprises.CMS.UserList.Dto
         public string FullName { get; set; }
 
         public string EmailAddress { get; set; }
+        public string Mobile { get; set; }
 
         public bool IsEmailConfirmed { get; set; }
 

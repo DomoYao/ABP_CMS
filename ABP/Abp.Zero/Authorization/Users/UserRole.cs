@@ -10,6 +10,10 @@ namespace Abp.Authorization.Users
     public class UserRole : CreationAuditedEntity<long>
     {
         /// <summary>
+        /// 
+        /// </summary>
+        public virtual int? TenantId { get; set; }
+        /// <summary>
         /// User id.
         /// </summary>
         public virtual long UserId { get; set; }
@@ -34,6 +38,18 @@ namespace Abp.Authorization.Users
         /// <param name="roleId">Role id</param>
         public UserRole(long userId, int roleId)
         {
+            UserId = userId;
+            RoleId = roleId;
+        }
+
+        /// <summary>
+        /// Creates a new <see cref="UserRole"/> object.
+        /// </summary>
+        /// <param name="userId">User id</param>
+        /// <param name="roleId">Role id</param>
+        public UserRole(int? tenantId, long userId, int roleId)
+        {
+            TenantId = tenantId;
             UserId = userId;
             RoleId = roleId;
         }

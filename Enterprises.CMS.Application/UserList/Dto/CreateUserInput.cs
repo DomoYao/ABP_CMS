@@ -1,32 +1,1 @@
-using System.ComponentModel.DataAnnotations;
-using Abp.Auditing;
-using Abp.AutoMapper;
-using Enterprises.CMS.Users;
-
-namespace Enterprises.CMS.UserList.Dto
-{
-    [AutoMap(typeof(User))]
-    public class CreateUserInput
-    {
-        [Required]
-        public string UserName { get; set; }
-
-        [Required]
-        [StringLength(User.MaxNameLength)]
-        public string Name { get; set; }
-
-        [Required]
-        [StringLength(User.MaxSurnameLength)]
-        public string Surname { get; set; }
-
-        [Required]
-        [EmailAddress]
-        public string EmailAddress { get; set; }
-
-        [Required]
-        [StringLength(User.MaxPlainPasswordLength)]
-        public string Password { get; set; }
-
-        public bool IsActive { get; set; }
-    }
-}
+﻿using System.ComponentModel; using System.ComponentModel.DataAnnotations; using Abp.Auditing; using Abp.AutoMapper; using Enterprises.CMS.Users;  namespace Enterprises.CMS.UserList.Dto {     [AutoMap(typeof(User))]     public class CreateUserInput     {         [Required(ErrorMessage = "请输入{0}！")]         [DisplayName("用戶名")]         public string UserName { get; set; }          [Required(ErrorMessage = "请输入{0}！")]         [StringLength(User.MaxNameLength)]         [DisplayName("姓名")]         public string Name { get; set; }           [Required(ErrorMessage = "请输入{0}！")]         [EmailAddress]         [DisplayName("邮箱")]         public string EmailAddress { get; set; }          [DisplayName("手机号码")]         [Required(ErrorMessage = "请输入{0}！")]         public string Mobile { get; set; }          //[Required]         //[StringLength(User.MaxPlainPasswordLength)]         public string Password { get; set; }          public bool IsActive { get; set; }          public long Id { get; set; }     } }
