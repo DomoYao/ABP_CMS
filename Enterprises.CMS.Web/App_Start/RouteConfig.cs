@@ -10,7 +10,7 @@ namespace Enterprises.CMS.Web
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
-            routes.Add(new Route("Content/UEditor/{controller}", new UEditorRouteHandler()));
+            //routes.Add(new Route("Content/UEditor/{controller}", new UEditorRouteHandler()));
             //ASP.NET Web API Route Config
             routes.MapHttpRoute(
                 name: "DefaultApi",

@@ -21517,3 +21517,167 @@ DEBUG 2017-12-01 16:45:54,068 [38   ] Abp.Localization.LocalizationManager     -
 DEBUG 2017-12-01 16:45:54,068 [38   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
 DEBUG 2017-12-01 16:45:54,068 [38   ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
 DEBUG 2017-12-01 16:45:54,069 [38   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-01-07 18:00:26,287 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-01-07 18:00:27,299 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-01-07 18:00:27,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:00:27,303 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:00:27,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:00:27,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:00:27,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:00:27,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:00:27,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:00:27,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:00:27,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSApplicationModule, Enterprises.CMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:00:27,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSCoreModule, Enterprises.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:00:27,305 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSDataModule, Enterprises.CMS.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:00:27,305 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.Web.CMSWebModule, Enterprises.CMS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:00:27,305 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSWebApiModule, Enterprises.CMS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:00:27,308 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-01-07 18:00:27,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes defines auto mapping attributes
+DEBUG 2018-01-07 18:00:27,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.CreateUserInput
+DEBUG 2018-01-07 18:00:28,093 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserInfoDto
+DEBUG 2018-01-07 18:00:28,102 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserListDto
+DEBUG 2018-01-07 18:00:28,107 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-01-07 18:00:28,113 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-01-07 18:00:28,116 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Roles.Dto.CreateRoleInput
+DEBUG 2018-01-07 18:00:28,121 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Roles.Dto.RoleListDto
+DEBUG 2018-01-07 18:00:28,123 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.News.Dto.NewsCreateInput
+DEBUG 2018-01-07 18:00:28,135 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.News.Dto.NewsListDto
+DEBUG 2018-01-07 18:00:28,138 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.NewsType.Dto.NewsTypeCreateInput
+DEBUG 2018-01-07 18:00:28,142 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.NewsType.Dto.NewsTypeListDto
+DEBUG 2018-01-07 18:00:28,149 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Files.Dto.FilesCreateInput
+DEBUG 2018-01-07 18:00:28,157 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Files.Dto.FilesListDto
+DEBUG 2018-01-07 18:00:28,884 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.UserList.IUserAppService' with service name 'app/user'.
+DEBUG 2018-01-07 18:00:28,885 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-01-07 18:00:28,887 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-01-07 18:00:28,888 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.News.INewsAppService' with service name 'app/news'.
+DEBUG 2018-01-07 18:00:28,890 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.NewsType.INewsTypeAppService' with service name 'app/newsType'.
+DEBUG 2018-01-07 18:00:28,891 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Files.IFilesAppService' with service name 'app/files'.
+DEBUG 2018-01-07 18:00:29,286 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-01-07 18:00:29,291 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-01-07 18:00:29,291 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-01-07 18:00:29,292 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
+DEBUG 2018-01-07 18:00:29,292 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-01-07 18:04:44,048 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-01-07 18:04:47,162 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-01-07 18:04:47,165 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:04:47,167 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:04:47,167 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:04:47,167 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:04:47,167 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:04:47,168 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:04:47,168 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:04:47,168 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:04:47,168 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSApplicationModule, Enterprises.CMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:04:47,168 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSCoreModule, Enterprises.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:04:47,168 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSDataModule, Enterprises.CMS.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:04:47,168 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.Web.CMSWebModule, Enterprises.CMS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:04:47,168 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSWebApiModule, Enterprises.CMS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:04:47,172 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-01-07 18:04:48,672 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes defines auto mapping attributes
+DEBUG 2018-01-07 18:04:48,672 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.CreateUserInput
+DEBUG 2018-01-07 18:04:48,805 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserInfoDto
+DEBUG 2018-01-07 18:04:48,814 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserListDto
+DEBUG 2018-01-07 18:04:48,819 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-01-07 18:04:48,825 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-01-07 18:04:48,827 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Roles.Dto.CreateRoleInput
+DEBUG 2018-01-07 18:04:48,833 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Roles.Dto.RoleListDto
+DEBUG 2018-01-07 18:04:48,834 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.News.Dto.NewsCreateInput
+DEBUG 2018-01-07 18:04:48,845 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.News.Dto.NewsListDto
+DEBUG 2018-01-07 18:04:48,848 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.NewsType.Dto.NewsTypeCreateInput
+DEBUG 2018-01-07 18:04:48,853 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.NewsType.Dto.NewsTypeListDto
+DEBUG 2018-01-07 18:04:48,858 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Files.Dto.FilesCreateInput
+DEBUG 2018-01-07 18:04:48,865 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Files.Dto.FilesListDto
+DEBUG 2018-01-07 18:04:50,185 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.UserList.IUserAppService' with service name 'app/user'.
+DEBUG 2018-01-07 18:04:50,187 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-01-07 18:04:50,188 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-01-07 18:04:50,189 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.News.INewsAppService' with service name 'app/news'.
+DEBUG 2018-01-07 18:04:50,191 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.NewsType.INewsTypeAppService' with service name 'app/newsType'.
+DEBUG 2018-01-07 18:04:50,192 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Files.IFilesAppService' with service name 'app/files'.
+DEBUG 2018-01-07 18:04:50,558 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-01-07 18:04:50,563 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-01-07 18:04:50,564 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-01-07 18:04:50,565 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
+DEBUG 2018-01-07 18:04:50,565 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-01-07 18:13:12,206 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-01-07 18:13:13,877 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-01-07 18:13:13,881 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:13:13,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:13:13,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:13:13,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:13:13,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:13:13,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:13:13,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:13:13,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:13:13,885 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSApplicationModule, Enterprises.CMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:13:13,885 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSCoreModule, Enterprises.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:13:13,885 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSDataModule, Enterprises.CMS.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:13:13,885 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.Web.CMSWebModule, Enterprises.CMS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:13:13,885 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSWebApiModule, Enterprises.CMS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:13:13,890 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-01-07 18:13:15,263 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes defines auto mapping attributes
+DEBUG 2018-01-07 18:13:15,263 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.CreateUserInput
+DEBUG 2018-01-07 18:13:15,394 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserInfoDto
+DEBUG 2018-01-07 18:13:15,404 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserListDto
+DEBUG 2018-01-07 18:13:15,409 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-01-07 18:13:15,415 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-01-07 18:13:15,417 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Roles.Dto.CreateRoleInput
+DEBUG 2018-01-07 18:13:15,424 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Roles.Dto.RoleListDto
+DEBUG 2018-01-07 18:13:15,426 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.News.Dto.NewsCreateInput
+DEBUG 2018-01-07 18:13:15,438 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.News.Dto.NewsListDto
+DEBUG 2018-01-07 18:13:15,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.NewsType.Dto.NewsTypeCreateInput
+DEBUG 2018-01-07 18:13:15,445 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.NewsType.Dto.NewsTypeListDto
+DEBUG 2018-01-07 18:13:15,450 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Files.Dto.FilesCreateInput
+DEBUG 2018-01-07 18:13:15,458 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Files.Dto.FilesListDto
+DEBUG 2018-01-07 18:13:16,787 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.UserList.IUserAppService' with service name 'app/user'.
+DEBUG 2018-01-07 18:13:16,788 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-01-07 18:13:16,790 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-01-07 18:13:16,791 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.News.INewsAppService' with service name 'app/news'.
+DEBUG 2018-01-07 18:13:16,792 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.NewsType.INewsTypeAppService' with service name 'app/newsType'.
+DEBUG 2018-01-07 18:13:16,794 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Files.IFilesAppService' with service name 'app/files'.
+DEBUG 2018-01-07 18:13:17,329 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-01-07 18:13:17,334 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-01-07 18:13:17,334 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-01-07 18:13:17,335 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
+DEBUG 2018-01-07 18:13:17,335 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-01-07 18:21:46,825 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-01-07 18:21:48,521 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-01-07 18:21:48,525 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:21:48,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:21:48,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:21:48,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:21:48,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:21:48,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.5.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:21:48,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:21:48,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.6.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:21:48,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSApplicationModule, Enterprises.CMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:21:48,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSCoreModule, Enterprises.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:21:48,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSDataModule, Enterprises.CMS.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:21:48,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.Web.CMSWebModule, Enterprises.CMS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:21:48,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Enterprises.CMS.CMSWebApiModule, Enterprises.CMS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-07 18:21:48,532 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-01-07 18:21:49,906 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes defines auto mapping attributes
+DEBUG 2018-01-07 18:21:49,906 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.CreateUserInput
+DEBUG 2018-01-07 18:21:50,050 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserInfoDto
+DEBUG 2018-01-07 18:21:50,059 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.UserList.Dto.UserListDto
+DEBUG 2018-01-07 18:21:50,063 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-01-07 18:21:50,069 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-01-07 18:21:50,071 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Roles.Dto.CreateRoleInput
+DEBUG 2018-01-07 18:21:50,077 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Roles.Dto.RoleListDto
+DEBUG 2018-01-07 18:21:50,079 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.News.Dto.NewsCreateInput
+DEBUG 2018-01-07 18:21:50,089 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.News.Dto.NewsListDto
+DEBUG 2018-01-07 18:21:50,092 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.NewsType.Dto.NewsTypeCreateInput
+DEBUG 2018-01-07 18:21:50,096 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.NewsType.Dto.NewsTypeListDto
+DEBUG 2018-01-07 18:21:50,102 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Files.Dto.FilesCreateInput
+DEBUG 2018-01-07 18:21:50,109 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Enterprises.CMS.Files.Dto.FilesListDto
+DEBUG 2018-01-07 18:21:51,569 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.UserList.IUserAppService' with service name 'app/user'.
+DEBUG 2018-01-07 18:21:51,571 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-01-07 18:21:51,572 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-01-07 18:21:51,573 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.News.INewsAppService' with service name 'app/news'.
+DEBUG 2018-01-07 18:21:51,575 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.NewsType.INewsTypeAppService' with service name 'app/newsType'.
+DEBUG 2018-01-07 18:21:51,576 [1    ] Default                                  - Dynamic web api controller is created for type 'Enterprises.CMS.Files.IFilesAppService' with service name 'app/files'.
+DEBUG 2018-01-07 18:21:51,845 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-01-07 18:21:51,849 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-01-07 18:21:51,850 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-01-07 18:21:51,851 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
+DEBUG 2018-01-07 18:21:51,851 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
