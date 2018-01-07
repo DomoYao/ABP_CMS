@@ -1,0 +1,57 @@
+﻿div#badoopager {padding:10px 0; font-size: 13px; color: #48b9ef; font-family: arial, helvetica, sans-serif;  text-align: center}
+div#badoopager a {border: #f0f0f0 2px solid; padding:2px 5px; margin: 0 2px;  color: #48b9ef; text-decoration: none}
+div#badoopager a:hover {border: #ff5a00 2px solid;color: #ff5a00; }
+div#badoopager a:active {border: #ff5a00 2px solid; color: #ff5a00; }
+div#badoopager span.current {border: #ff5a00 2px solid; padding: 2px 5px;  font-weight: bold;   color: #fff;   background-color: #ff6c16}
+div#badoopager span.disabled {border: #f0f0f0 2px solid;padding:2px 5px;margin: 0 2px;}
+div#badoopager input[type=text]{width:30px}
+
+.fileinput-button {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+.fileinput-button input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    -ms-filter: 'alpha(opacity=0)';
+    font-size: 200px !important;
+    direction: ltr;
+    cursor: pointer;
+}
+
+/* Fixes for IE < 8 */
+@media screen\9 {
+    .fileinput-button input {
+        filter: alpha(opacity=0);
+        font-size: 100%;
+        height: 100%;
+    }
+}
+
+/*九宫格图片*/
+.nine-pic {
+    width: 600px;
+}
+
+.nine-pic>ul {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+}
+.video_list>li{
+    float: left;
+    width: 32%;
+    height: 32%;
+    font-size: 0;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.video_list>li>img{
+    width: 100%;
+    object-fit: cover;
+}
+

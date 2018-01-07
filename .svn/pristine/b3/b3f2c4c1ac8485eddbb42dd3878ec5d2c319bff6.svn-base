@@ -1,0 +1,44 @@
+﻿@model Enterprises.CMS.UserList.Dto.CreateUserInput
+
+<div class="modal-header">
+    <button data-dismiss="modal" class="close" type="button">×</button>
+    <h3>新增</h3>
+</div>
+<div class="modal-body">
+    <form action="~/users/create/" id="createForm" method="post" class="form-horizontal">
+        <div class="control-group">
+            <label class="control-label">用户名 :</label>
+            <div class="controls">
+                @Html.TextBoxFor(p => p.UserName, new { @class = "span3", placeholder = "用户名" })
+                <span class="help-inline">@Html.ValidationMessageFor(p => p.UserName)</span>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label">姓名 :</label>
+            <div class="controls">
+                @Html.TextBoxFor(p => p.Name, new { @class = "span3", placeholder = "真实姓名" })
+                <span class="help-inline">@Html.ValidationMessageFor(p => p.Name)</span>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label">邮箱 :</label>
+            <div class="controls">
+                @Html.TextBoxFor(p => p.EmailAddress, new { @class = "span3", placeholder = "邮箱" })
+                <span class="help-inline">@Html.ValidationMessageFor(p => p.EmailAddress)</span>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label">手机号码 :</label>
+            <div class="controls">
+                @Html.TextBoxFor(p => p.Mobile, new { @class = "span3", placeholder = "手机号码" })
+                <span class="help-inline">@Html.ValidationMessageFor(p => p.Mobile)</span>
+            </div>
+        </div>
+
+    </form>
+</div>
+<div class="modal-footer">
+    <a id="createSave" class="btn btn-primary" href="#">确定</a>
+    <a data-dismiss="modal" class="btn btn-inverse" href="#">取消</a>
+</div>
+

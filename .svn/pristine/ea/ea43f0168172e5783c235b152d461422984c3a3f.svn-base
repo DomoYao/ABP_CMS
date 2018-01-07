@@ -1,0 +1,43 @@
+﻿@using Enterprises.CMS.Authorization
+@using Webdiyer.WebControls.Mvc
+@model Enterprises.CMS.News.Dto.NewsSearchInput
+@{
+    Layout = "../Shared/_Layout.cshtml";
+    ViewBag.ActiveMenu = "新闻公共管理";
+}
+
+<div id="content-header">
+    <div id="breadcrumb"> <a href="#" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> 首页</a> <a href="#" class="current">新闻公共管理</a> </div>
+    <h1>新闻公共管理</h1>
+</div>
+<div class="container-fluid">
+    <hr>
+    @using (Ajax.BeginForm("List", new RouteValueDictionary { { "id", "" } }, new AjaxOptions { UpdateTargetId = "AjaxPagerPangel", InsertionMode = InsertionMode.Replace }, new RouteValueDictionary { { "id", "searchForm" } }))
+    {
+        <div class="container-fluid" style="margin-bottom: 20px;">
+            <div class="row-fluid">
+                <div class="span3 form-inline">
+                    <label>新闻主题：</label>
+                    @Html.TextBoxFor(p => p.Title, new { @class = "form-control", placeholder = "新闻主题" })
+                </div>
+                <div class="span3">
+                    <button type="submit" accesskey="S" class="btn btn-info">查询</button>
+                </div>
+            </div>
+        </div>
+    }
+
+    @* @if (IsGranted(PermissionNames.AdministrationNewsCreate))
+        {*@
+    <a id="btCreate" href="javascript:void(0);" url="~/admin/News/create" class="btn btn-success">新增</a>
+  @*}*@
+    <div class="row-fluid" id="AjaxPagerPangel">
+        @{ Html.RenderAction("list", "News", new { id = Model.PageIndex }); }
+    </div>
+</div>
+<div id="pageModal" class="modal hide"></div>
+@section Scripts{
+    
+    <script src="~/Scripts/form.js"></script>
+    @{Html.RegisterMvcPagerScriptResource();}
+}

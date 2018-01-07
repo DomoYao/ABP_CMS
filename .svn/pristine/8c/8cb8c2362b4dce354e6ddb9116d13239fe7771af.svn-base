@@ -1,0 +1,32 @@
+﻿@model Enterprises.CMS.Roles.Dto.CreateRoleInput
+
+<div class="modal-header">
+    <button data-dismiss="modal" class="close" type="button">×</button>
+    <h3>新增记录</h3>
+</div>
+<div class="modal-body">
+    @using (Html.BeginForm("Create", "Role", FormMethod.Post, new { @class= "form-horizontal",id= "saveForm" }))
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+        <div class="control-group">
+            <label class="control-label">角色名称 :</label>
+            <div class="controls">
+                @Html.TextBoxFor(p => p.Name, new { @class = "span3", placeholder = "角色名称" })
+                <span class="help-inline">@Html.ValidationMessageFor(p => p.Name)</span>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label">角色显示名 :</label>
+            <div class="controls">
+                @Html.TextBoxFor(p => p.DisplayName, new { @class = "span3", placeholder = "角色显示名" })
+                <span class="help-inline">@Html.ValidationMessageFor(p => p.DisplayName)</span>
+            </div>
+        </div>
+    }
+</div>
+<div class="modal-footer">
+    <a id="btSave" class="btn btn-primary" href="#">确定</a>
+    <a data-dismiss="modal" class="btn btn-inverse" href="#">取消</a>
+</div>
+

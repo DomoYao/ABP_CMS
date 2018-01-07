@@ -1,0 +1,6 @@
+﻿namespace Enterprises.CMS.Roles.Dto
+{
+    public class CreateRoleInput
+    {
+    }
+}
