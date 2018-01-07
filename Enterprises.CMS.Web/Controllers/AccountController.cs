@@ -10,7 +10,6 @@ using Enterprises.CMS.Users;
 using Enterprises.CMS.Web.Models.Account;
 using Microsoft.AspNet.Identity;
 using Microsoft.Owin.Security;
-using Enterprises.CMS.Migrations.SeedData;
 
 namespace Enterprises.CMS.Web.Controllers
 {
@@ -56,7 +55,7 @@ namespace Enterprises.CMS.Web.Controllers
             {
                 throw new UserFriendlyException("提交信息有误!");
             }
-           
+
             var loginResult = await _userManager.LoginAsync(
                 loginModel.UsernameOrEmailAddress,
                 loginModel.Password,
